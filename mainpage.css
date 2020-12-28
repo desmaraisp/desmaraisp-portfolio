@@ -21,24 +21,24 @@ button {
 
 .Home_button{
     top: 0px;
-    left: 40px;
+    left: 10%;
 }
 
 .Projects_button{
     top: 0px;
-    left: 200px;
+    left: 30%;
 }
 
 .English_button{
     top:0px;
-    right: 40px;
+    left: 80%;
 }
 
 .first_paragraph{
     position: absolute;
     text-align: left;
     word-wrap: break-word;
-    width: 55%;
+    width: 750px;
     top: 200px;
 }
 
