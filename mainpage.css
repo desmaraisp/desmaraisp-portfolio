@@ -3,6 +3,7 @@ body {
     color: white;
     margin-left: 20px;
     position: absolute;
+    overflow: auto;
 }
 
 button {
@@ -35,7 +36,7 @@ button {
 .first_paragraph{
     text-align: left;
     word-wrap: break-word;
-    width: 750px;
+    width: 55%;
     top: 200px;
 }
 
