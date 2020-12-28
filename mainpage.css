@@ -31,10 +31,21 @@ button {
     right: 40px;
 }
 
-.first_paragraph{
+.profile_pic_separator{
     position: absolute;
+    display: inline-block;
+}    
+
+.first_paragraph{
     text-align: left;
     word-wrap: break-word;
     width: 750px;
-    top: 100px
+    top: 100px;
+}
+
+img#Profile_pic{
+    width: 100px;
+    height: auto;
+    top: 100px;
+    right: 100px;
 }
