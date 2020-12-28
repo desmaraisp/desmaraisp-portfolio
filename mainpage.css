@@ -36,6 +36,7 @@ button {
   float: left;
   width: 50%;
   padding: 5px;
+  top: 100px;
 }
 
 .row::after {
@@ -44,9 +45,10 @@ button {
   display: table;
 }
 
+<!--
 .first_paragraph{
     text-align: left;
     word-wrap: break-word;
     width: 100%;
     top: 100px
-}
+}-->
