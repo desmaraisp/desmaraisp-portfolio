@@ -7,7 +7,6 @@ body {
 }
 
 button {
-    position: absolute;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -20,18 +19,21 @@ button {
 }
 
 .Home_button{
+    position: absolute;
     top: 0px;
-    left: 10%;
+    left: 40px;
 }
 
 .Projects_button{
+    position: absolute;
     top: 0px;
-    left: 30%;
+    left: 200px;
 }
 
 .English_button{
+    position: absolute;
     top:0px;
-    left: 80%;
+    right: 100px;
 }
 
 .first_paragraph{
