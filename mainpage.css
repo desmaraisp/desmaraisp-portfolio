@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     margin-left: 20px;
+    position: absolute;
 }
 
 button {
@@ -31,8 +32,13 @@ button {
     right: 40px;
 }
 
+.Profile_pic{
+    top: 100px;
+    right: 100px;
+    width: 150px;
+}
+
 .first_paragraph{
-    position: absolute;
     text-align: left;
     word-wrap: break-word;
     width: 750px;
