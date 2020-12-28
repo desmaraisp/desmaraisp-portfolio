@@ -17,16 +17,16 @@ button {
 }
 
 .Home_button{
-    top: 0%;
-    left: 10%;
+    top: 0px;
+    left: 40px;
 }
 
 .Projects_button{
-    top: 0%;
-    left: 20%;
+    top: 0px;
+    left: 100px;
 }
 
 .English_button{
-    top:0%;
-    right: 10%;
+    top:0px;
+    right: 40px;
 }
