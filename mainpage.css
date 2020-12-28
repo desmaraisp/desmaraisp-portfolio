@@ -1,5 +1,4 @@
 body {
-    margin-top: 80px
     background-color: black;
     color: white;
     margin-left: 20px;
@@ -31,3 +30,9 @@ button {
     top:0px;
     right: 40px;
 }
+
+p{
+    position: absolute;
+    text-align: left;
+    word-wrap: break-word;
+    width: 1000px;
