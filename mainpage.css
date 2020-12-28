@@ -5,6 +5,7 @@ body {
 }
 
 button {
+    position: absolute;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -16,20 +17,18 @@ button {
 }
 
 .Home_button{
-    position: absolute;
     top: 0px;
     left: 40px;
 }
 
 .Projects_button{
-    position: absolute;
     top: 0px;
     left: 200px;
 }
 
 .English_button{
-    top: 0px;
-    right: 100px;
+    top:0px;
+    right: 40px;
 }
 
 .first_paragraph{
@@ -37,6 +36,5 @@ button {
     text-align: left;
     word-wrap: break-word;
     width: 750px;
-    top: 200px;
+    top: 100px
 }
-
