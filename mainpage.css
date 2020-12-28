@@ -32,9 +32,21 @@ button {
     right: 40px;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .first_paragraph{
     text-align: left;
     word-wrap: break-word;
-    width: 750px;
+    width: 100%;
     top: 100px
 }
