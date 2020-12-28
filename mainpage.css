@@ -31,10 +31,10 @@ button {
     right: 40px;
 }
 
-p{
+.first_paragraph{
     position: absolute;
     text-align: left;
     word-wrap: break-word;
-    width: 1000px;
+    width: 750px;
     top: 100px
 }
