@@ -32,8 +32,8 @@ button {
     right: 40px;
 }
 
-.Profile_pic{
-    top: 100px;
+img#Profile_pic{
+    top: 400px;
     right: 100px;
     width: 150px;
 }
