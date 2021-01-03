@@ -15,7 +15,7 @@ button {
 
 #buttons_container{
     display: flex;
-    margin: 20px;
+    margin-left: 20px;
     justify-content: flex-start;
 }
 
@@ -35,6 +35,6 @@ button {
     flex: 2 2 auto;
 }
 
-img#Profile_pic{
+#Profile_pic{
     flex: 1 1 auto;
 }
