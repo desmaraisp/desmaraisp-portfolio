@@ -32,6 +32,7 @@ button {
 
 .first_paragraph{
     min-width: 0;
+    max-width: 95%;
     text-align: left;
     word-wrap: break-word;
     flex: 2 2 auto;
@@ -39,5 +40,11 @@ button {
 
 .img_wrapper{
     min-width: 0;
+    max-width: 95%;
     flex: 1 1 auto;
+}
+
+#Profile_pic{
+    min-width: 0;
+    max-width: 95%;
 }
