@@ -19,6 +19,10 @@ button {
     justify-content: flex-start;
 }
 
+.English_button{
+    align-self: flex-end;
+}
+
 
 #text_container{
     display: flex;
