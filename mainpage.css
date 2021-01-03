@@ -30,10 +30,12 @@ button {
 
 #first_paragraph{
     flex: 1 1 auto;
+    word-wrap: break-word;
 }
 
 #secondParagraph{
     flex: 1 1 auto;
+    word-wrap: break-word;
 }
 
 /*.img_wrapper{
