@@ -29,13 +29,13 @@ button {
 }
 
 #first_paragraph{
-    flex: 1 1 auto;
+    flex: 1 1 0;
     word-wrap: break-word;
     min-width: 0;
 }
 
 #secondParagraph{
-    flex: 1 1 auto;
+    flex: 1 1 0;
     word-wrap: break-word;
     min-width: 0;
 }
