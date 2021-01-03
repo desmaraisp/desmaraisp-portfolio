@@ -29,22 +29,6 @@ button {
 }
 
 
-#first_paragraph{
-    min-width: 0;
-    max-width: 95%;
-    text-align: left;
-    word-wrap: break-word;
-    flex: 2 2 0;
-}
-
-#second_paragraph{
-    min-width: 0;
-    max-width: 95%;
-    text-align: left;
-    word-wrap: break-word;
-    flex: 1 1 0;
-}
-
 /*.img_wrapper{
     min-width: 0;
     max-width: 95%;
