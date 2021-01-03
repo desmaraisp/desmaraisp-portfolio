@@ -3,8 +3,8 @@ body {
     color: white;
 }
 
-button {
-    background-color: #4CAF50; /* Green */
+/*button {
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -21,7 +21,7 @@ button {
 
 .English_button{
     margin-left: auto;
-}
+}*/
 
 
 #text_container{
@@ -29,13 +29,13 @@ button {
 }
 
 #first_paragraph{
-    flex: 1 1 0;
+    flex: 1 1 auto;
     word-wrap: break-word;
     min-width: 0;
 }
 
 #secondParagraph{
-    flex: 1 1 0;
+    flex: 1 1 auto;
     word-wrap: break-word;
     min-width: 0;
 }
