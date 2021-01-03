@@ -31,20 +31,20 @@ button {
     right: 40px;
 }
 
+.profile_pic_separator{
+    top: 200px;
+    display: flex;
+}
+
+
 .first_paragraph{
     text-align: left;
     word-wrap: break-word;
-    width: 750px;
-    top: 200px;
-    position: absolute;
-    display: inline-block;
+    flex-grow: 2;
 }
 
 img#Profile_pic{
     width: 100px;
     height: auto;
-    top: 200px;
-    right: 100px;
-    position: absolute;
-    display: inline-block;
+    flex-grow: 1;
 }
