@@ -34,10 +34,11 @@ button {
     text-align: left;
     word-wrap: break-word;
     flex-grow: 2;
+    width: 100%;
 }
 
 img#Profile_pic{
-    width: 100px;
+    width: 90%;
     height: auto;
     flex-grow: 1;
 }
