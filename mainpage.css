@@ -5,34 +5,22 @@ body {
 }
 
 button {
-    position: absolute;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
 }
 
-.Home_button{
-    top: 0px;
-    left: 40px;
+#buttons_container{
+    display:flex;
+    justify-content: flex-start;
 }
 
-.Projects_button{
-    top: 0px;
-    left: 200px;
-}
 
-.English_button{
-    top:0px;
-    right: 40px;
-}
-
-.profile_pic_separator{
-    top: 200px;
+#text_container{
     display: flex;
 }
 
