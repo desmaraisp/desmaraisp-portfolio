@@ -30,11 +30,13 @@ button {
 
 
 .first_paragraph{
+    min-width: 0;
     text-align: left;
     word-wrap: break-word;
     flex: 2 2 auto;
 }
 
 #Profile_pic{
+    min-width: 0;
     flex: 1 1 auto;
 }
