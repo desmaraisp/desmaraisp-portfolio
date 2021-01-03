@@ -36,16 +36,11 @@ button {
     text-align: left;
     word-wrap: break-word;
     width: 750px;
-    top: 200px;
-    position: absolute;
     display: inline-block;
 }
 
 img#Profile_pic{
     width: 100px;
     height: auto;
-    top: 200px;
     right: 100px;
-    position: absolute;
-    display: inline-block;
 }
