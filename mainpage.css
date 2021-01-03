@@ -29,7 +29,7 @@ button {
 }
 
 
-.first_paragraph{
+#first_paragraph{
     min-width: 0;
     max-width: 95%;
     text-align: left;
@@ -37,7 +37,15 @@ button {
     flex: 2 2 0;
 }
 
-.img_wrapper{
+#second_paragraph{
+    min-width: 0;
+    max-width: 95%;
+    text-align: left;
+    word-wrap: break-word;
+    flex: 1 1 0;
+}
+
+/*.img_wrapper{
     min-width: 0;
     max-width: 95%;
     flex: 1 1 0;
@@ -46,4 +54,4 @@ button {
 #Profile_pic{
     width: 36px;
     height: auto;
-}
+}*/
