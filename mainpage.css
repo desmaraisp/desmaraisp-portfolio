@@ -28,7 +28,7 @@ body {
     display: flex;
 }
 
-#first_paragraph{
+#firstParagraph{
     flex: 1 1 auto;
     word-wrap: break-word;
     width: 200px;
