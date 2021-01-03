@@ -26,6 +26,7 @@ button {
 
 #text_container{
     display: flex;
+    overflow: hidden;
 }
 
 
