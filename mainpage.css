@@ -21,7 +21,7 @@ button {
 }
 
 .English_button{
-    margin-left: auto;
+    justify-content: flex-end;
 }
 
 
