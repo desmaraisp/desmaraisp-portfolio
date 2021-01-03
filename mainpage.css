@@ -33,12 +33,9 @@ button {
 .first_paragraph{
     text-align: left;
     word-wrap: break-word;
-    flex-grow: 2;
-    width: 100%;
+    flex-basis: 70%;
 }
 
 img#Profile_pic{
-    width: 90%;
-    height: auto;
-    flex-grow: 1;
+    flex-basis: 30%;
 }
