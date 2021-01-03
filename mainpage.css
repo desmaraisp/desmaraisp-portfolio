@@ -12,18 +12,19 @@ button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
 }
 
 .Home_button{
     top: 0px;
     left: 40px;
+    display: inline-block;
 }
 
 .Projects_button{
     top: 0px;
     left: 200px;
+    display: inline-block;
 }
 
 .English_button{
