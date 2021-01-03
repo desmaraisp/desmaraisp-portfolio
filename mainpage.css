@@ -26,7 +26,6 @@ button {
 
 #text_container{
     display: flex;
-    overflow: hidden;
 }
 
 
@@ -35,16 +34,16 @@ button {
     max-width: 95%;
     text-align: left;
     word-wrap: break-word;
-    flex: 2 2 auto;
+    flex: 2 2 0;
 }
 
 .img_wrapper{
     min-width: 0;
     max-width: 95%;
-    flex: 1 1 auto;
+    flex: 1 1 0;
 }
 
 #Profile_pic{
-    min-width: 0;
-    max-width: 95%;
+    width: 36px;
+    height: auto;
 }
