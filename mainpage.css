@@ -36,7 +36,7 @@ button {
     flex: 2 2 auto;
 }
 
-#Profile_pic{
+.img_wrapper{
     width: 0;
     height: 0;
     flex: 1 1 auto;
