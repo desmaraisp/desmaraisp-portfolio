@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 button {
@@ -20,7 +21,7 @@ button {
 }
 
 .English_button{
-    align-self: flex-end;
+    margin-left: auto;
 }
 
 
