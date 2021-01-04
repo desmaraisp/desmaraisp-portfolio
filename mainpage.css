@@ -1,11 +1,9 @@
 body {
     background-color: black;
     color: white;
-    margin-left: 20px;
 }
 
 button {
-    position: absolute;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -15,37 +13,35 @@ button {
     font-size: 16px;
 }
 
+.flexbox_container{
+    display: flex;
+}
+
 .Home_button{
-    top: 0px;
-    left: 40px;
-    display: inline-block;
 }
 
 .Projects_button{
-    top: 0px;
-    left: 200px;
-    display: inline-block;
 }
 
 .English_button{
-    top:0px;
-    right: 40px;
 }
 
-.first_paragraph{
-    text-align: left;
-    word-wrap: break-word;
-    width: 750px;
-    top: 200px;
-    position: absolute;
-    display: inline-block;
+
+#first_paragraph{
+    flex: 2 2 0;
 }
 
-img#Profile_pic{
-    width: 100px;
+#second_paragraph{
+    flex: 1 1 0;
+}
+
+#profile_pic_div{
+    flex: 2 2 0;
+    min-width: 0;
+    min-height: 0;
+}
+
+#profile_pic{
+    width: 100%;
     height: auto;
-    top: 200px;
-    right: 100px;
-    position: absolute;
-    display: inline-block;
 }
