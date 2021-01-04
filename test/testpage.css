@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.flexbox_container{
+    display: flex;
+}
+
+#first_paragraph{
+}
+
+#second_paragraph{
+}
