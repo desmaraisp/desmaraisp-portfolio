@@ -11,7 +11,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 10%
+    border-radius: 10px;
 }
 
 .flexbox_container{
@@ -21,8 +21,8 @@ body {
 #buttons_flexbox_container{
     margin-top: 20px;
     margin-bottom: 20px
-    gap: 20px;
-    background-color: Gainsboro;
+    gap: 60px;
+    background-color: DarkGray;
 }
 
 #English_button_div{
@@ -47,5 +47,5 @@ body {
 #profile_pic{
     width: 100%;
     height: auto;
-    border-radius: 5%;
+    border-radius: 10px;
 }
