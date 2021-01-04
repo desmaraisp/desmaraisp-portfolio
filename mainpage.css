@@ -50,6 +50,11 @@ body {
     font-size: 4rem; font-weight: normal;
 }
 
+#title_outliner{
+    position: relative;
+    border-top: 3px solid red;
+}
+
 #profile_pic_div{
     flex: 1 1 0;
     min-width: 0;
