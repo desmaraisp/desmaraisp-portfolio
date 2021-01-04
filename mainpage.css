@@ -50,7 +50,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 64px; font-weight: normal;
     margin: 15px 0px 0px;
-    display: inline-block;
+    display: inline;
 }
 
 #title_outliner{
