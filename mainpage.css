@@ -1,11 +1,9 @@
 body {
     background-color: black;
     color: white;
-    margin-left: 20px;
 }
 
-button {
-    position: absolute;
+.button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -15,37 +13,35 @@ button {
     font-size: 16px;
 }
 
-.Home_button{
-    top: 0px;
-    left: 40px;
-    display: inline-block;
+.flexbox_container{
+    display: flex;
 }
 
-.Projects_button{
-    top: 0px;
-    left: 200px;
-    display: inline-block;
+#buttons_flexbox_container{
+    gap: 20px;
 }
 
-.English_button{
-    top:0px;
-    right: 40px;
+#English_button_div{
+    margin-left: auto;
 }
 
-.first_paragraph{
-    text-align: left;
-    word-wrap: break-word;
-    width: 750px;
-    top: 200px;
-    position: absolute;
-    display: inline-block;
+#text_div{
+    flex: 2 2 0;
+    min-width: 0;
 }
 
-img#Profile_pic{
-    width: 100px;
+#first_paragraph{
+    width: 100%;
+}
+
+#profile_pic_div{
+    margin-top: 30px;
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 0;
+}
+
+#profile_pic{
+    width: 100%;
     height: auto;
-    top: 200px;
-    right: 100px;
-    position: absolute;
-    display: inline-block;
 }
