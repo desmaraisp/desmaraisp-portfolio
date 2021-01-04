@@ -34,7 +34,7 @@ body {
 }
 
 #profile_pic_flexbox_container{
-    gap: 15%;
+    gap: 10%;
     align-items: center; 
     margin-top: 10%;
 }
