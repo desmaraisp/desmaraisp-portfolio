@@ -51,7 +51,7 @@ body {
 }
 
 #title_outliner{
-    position: absolute;
+    position: absolute; top: 0px;
     border-top: 3px solid red;
     z-index: 5;
     width: 50%;
