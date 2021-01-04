@@ -50,13 +50,13 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 64px; font-weight: normal;
     margin: 15px 0px 0px;
-    white-space: pre-line;
+    padding: 0;
 }
 
 #title_outliner{
     border-top: 3px solid red;
     z-index: 5;
-    width: 75%; height: 0px;
+    width: 150px; height: 0px;
 }
 
 #profile_pic_div{
