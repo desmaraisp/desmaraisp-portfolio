@@ -26,10 +26,13 @@ button {
 .English_button{
 }
 
-
-#first_paragraph{
+#text_div{
     flex: 2 2 0;
     min-width: 0;
+}
+
+#first_paragraph{
+    width: 100%;
 }
 
 #profile_pic_div{
