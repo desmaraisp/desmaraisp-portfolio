@@ -51,6 +51,7 @@ body {
     font-size: 64px; font-weight: normal;
     margin: 15px 0px 0px;
     padding: 0;
+    display: inline;
 }
 
 #title_outliner{
