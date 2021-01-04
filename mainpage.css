@@ -44,7 +44,7 @@ body {
     margin-left: 10%;
 }
 
-#Title{
+.Title{
     width: 100%;
     font-family: 'Trocchi', serif;
     font-size: 45px; font-weight: normal; line-height: 48px;
