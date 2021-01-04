@@ -53,6 +53,7 @@ body {
 #title_outliner{
     position: relative;
     border-top: 3px solid red;
+    z-index: 5;
 }
 
 #profile_pic_div{
