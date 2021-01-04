@@ -13,6 +13,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     border-radius: 10px;
+    white-space:nowrap;
 }
 
 
@@ -22,8 +23,8 @@ body {
 }
 
 #buttons_flexbox_container{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     gap: 10%;
     margin: 5px 5%;
 }
