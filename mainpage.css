@@ -33,7 +33,7 @@ button {
 }
 
 #profile_pic_div{
-    flex: 2 2 0;
+    flex: 1 1 0;
     min-width: 0;
     min-height: 0;
 }
