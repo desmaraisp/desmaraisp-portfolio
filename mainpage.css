@@ -35,6 +35,7 @@ body {
 #profile_pic_flexbox_container{
     gap: 15%;
     align-items: center; 
+    margin-top: 10%;
 }
 
 #text_div{
