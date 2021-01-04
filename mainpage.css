@@ -35,6 +35,7 @@ body {
 #profile_pic_flexbox_container{
     gap: 15%;
     align-items: center; 
+    margin-top: 10%;
 }
 
 #text_div{
@@ -43,8 +44,17 @@ body {
     margin-left: 10%;
 }
 
-#first_paragraph{
+.Title{
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem; font-weight: normal;
+    margin-top: 15px;
+}
+
+#title_outliner{
+    border-top: 3px solid red;
+    z-index: 5;
+    width: 50%; height: 0px;
 }
 
 #profile_pic_div{
