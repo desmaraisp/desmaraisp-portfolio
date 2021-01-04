@@ -12,3 +12,13 @@ body {
 
 #second_paragraph{
 }
+
+#profile_pic_div{
+    min-width: 0;
+    min-height: 0;
+}
+
+#profile_pic{
+    width: 100%;
+    height: auto;
+}
