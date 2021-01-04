@@ -20,7 +20,7 @@ body {
 
 #buttons_flexbox_container{
     margin-top: 50px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
     gap: 160px;
 }
 
