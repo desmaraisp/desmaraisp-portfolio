@@ -34,7 +34,6 @@ body {
 
 #profile_pic_flexbox_container{
     gap: 15%;
-    align-items: center; 
     margin-top: 10%;
 }
 
@@ -51,7 +50,6 @@ body {
 }
 
 #title_outliner{
-    position: relative; top: 0px;
     border-top: 3px solid red;
     z-index: 5;
     width: 50%; height: 0px;
