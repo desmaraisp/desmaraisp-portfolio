@@ -17,13 +17,8 @@ body {
     display: flex;
 }
 
-.Home_button{
-}
-
-.Projects_button{
-}
-
-.English_button{
+#English_button_div{
+    margin-left: auto;
 }
 
 #text_div{
