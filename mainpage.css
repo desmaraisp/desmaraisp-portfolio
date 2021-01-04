@@ -11,7 +11,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 70%
+    border-radius: 90%
 }
 
 .flexbox_container{
@@ -45,5 +45,5 @@ body {
 #profile_pic{
     width: 100%;
     height: auto;
-    border-radius: 70%;
+    border-radius: 95%;
 }
