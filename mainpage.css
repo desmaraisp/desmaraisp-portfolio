@@ -17,6 +17,10 @@ body {
     display: flex;
 }
 
+#buttons_flexbox_container{
+    gap: 20px;
+}
+
 #English_button_div{
     margin-left: auto;
 }
