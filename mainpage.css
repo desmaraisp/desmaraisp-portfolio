@@ -29,10 +29,7 @@ button {
 
 #first_paragraph{
     flex: 2 2 0;
-}
-
-#second_paragraph{
-    flex: 1 1 0;
+    min-width: 0;
 }
 
 #profile_pic_div{
