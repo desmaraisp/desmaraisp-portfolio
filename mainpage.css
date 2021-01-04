@@ -46,8 +46,8 @@ body {
 
 .Title{
     width: 100%;
-    font-family: 'Trocchi', serif;
-    font-size: 45px; font-weight: normal; line-height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem; font-weight: normal;
 }
 
 #profile_pic_div{
