@@ -19,7 +19,10 @@ body {
 }
 
 #buttons_flexbox_container{
+    margin-top: 20px;
+    margin-bottom: 20px
     gap: 20px;
+    background-color: Gainsboro;
 }
 
 #English_button_div{
@@ -36,7 +39,6 @@ body {
 }
 
 #profile_pic_div{
-    margin-top: 30px;
     flex: 1 1 0;
     min-width: 0;
     min-height: 0;
