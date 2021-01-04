@@ -54,7 +54,7 @@ body {
     position: relative; top: 0px;
     border-top: 3px solid red;
     z-index: 5;
-    width: 50%;
+    width: 50%; height: 0px;
 }
 
 #profile_pic_div{
