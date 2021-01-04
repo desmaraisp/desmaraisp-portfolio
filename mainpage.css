@@ -59,7 +59,6 @@ body {
 }
 
 #profile_pic_div{
-    align-content: center;
     flex: 1 1 0;
     min-width: 0;
     min-height: 0;
@@ -69,5 +68,5 @@ body {
 #profile_pic{
     width: auto;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
