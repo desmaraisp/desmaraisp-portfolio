@@ -58,6 +58,7 @@ body {
     border-top: 3px solid red;
     z-index: 5;
     width: 150px; height: 0px;
+    dislpay: inline;
 }
 
 #profile_pic_div{
