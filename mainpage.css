@@ -10,11 +10,11 @@ body {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 12px;
     white-space:nowrap;
 }
 
@@ -22,12 +22,12 @@ body {
 
 .flexbox_container{
     display: flex;
+    justify-content: space-around;
 }
 
 #buttons_flexbox_container{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin: 5px 0px;
 }
 
@@ -37,7 +37,6 @@ body {
 }
 
 #profile_pic_flexbox_container{
-    justify-content: space-around;
     align-items: center; 
     margin-bottom: 20%;
     flex-wrap:wrap;
