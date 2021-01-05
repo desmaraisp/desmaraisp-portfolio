@@ -27,8 +27,8 @@ body {
 #buttons_flexbox_container{
     padding-top: 32px;
     padding-bottom: 32px;
-    justify-content: space-between;
-    margin: 5px 5%;
+    justify-content: space-around;
+    margin: 5px 0px;
 }
 
 #empty_button_div{
@@ -37,10 +37,10 @@ body {
 }
 
 #profile_pic_flexbox_container{
-    justify-content: center;
+    justify-content: space-around;
     align-items: center; 
-    margin: 10% 0 20%;
-    gap: 15%;
+    margin-bottom: 20%;
+    flex-wrap:wrap;
 }
 
 #text_div{
@@ -65,7 +65,7 @@ body {
 }
 
 #profile_pic{
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     border-radius: 15px;
 }
