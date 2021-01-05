@@ -25,7 +25,7 @@ body {
 #buttons_flexbox_container{
     padding-top: 32px;
     padding-bottom: 32px;
-    gap: 10%;
+    justify-content: space-evenly;
     margin: 5px 5%;
 }
 
