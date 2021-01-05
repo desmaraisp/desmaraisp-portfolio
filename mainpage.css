@@ -23,6 +23,7 @@ body {
 }
 
 #buttons_flexbox_container{
+    position: fixed;
     padding-top: 32px;
     padding-bottom: 32px;
     gap: 10%;
