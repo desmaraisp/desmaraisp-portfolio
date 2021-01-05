@@ -2,6 +2,8 @@ body {
     background-color: black;
     color: white;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .button {
@@ -46,8 +48,7 @@ body {
 
 .Title{
     width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 64px; font-weight: normal;
+    font-size: 64px;
     margin: 15px 0px 0px;
 }
 
