@@ -29,6 +29,11 @@ body {
     margin: 5px 5%;
 }
 
+#empty_button_div{
+    margin: 0;
+    filling:0;
+}
+
 #English_button_div{
     margin-left: auto;
 }
