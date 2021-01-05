@@ -68,3 +68,8 @@ body {
     height: auto;
     border-radius: 15px;
 }
+
+#about_nested_flexbox_container{
+    flex-direction: column;
+    align-content: center;
+}
