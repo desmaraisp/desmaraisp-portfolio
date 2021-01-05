@@ -73,3 +73,7 @@ body {
     flex-direction: column;
     align-content: center;
 }
+
+#about_title, #about_text{
+    text-align: center;
+}
