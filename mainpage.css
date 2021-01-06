@@ -53,9 +53,8 @@ body {
 }
 
 #title_outliner{
-    border-top: 3px solid red;
-    z-index: 5;
     width: 150px; height: 0px;
+    border-top: 3px solid red;
 }
 
 #profile_pic_div{
@@ -80,6 +79,7 @@ body {
 
 
 #about_section_text, #about_section_title{
+    position: relative;
     text-align: center;
     align-content: center;
 }
@@ -91,5 +91,21 @@ body {
 
 #about_title{	
     text-align: center;	
-    font-size: 35px;	
-} 	
+    font-size: 35px;
+    margin: 20px;
+}
+
+#about_outliner_1{
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 50px; height: 0px;
+    border-top: 3px solid red;
+}
+
+#about_outliner_2{
+    position: absolute;
+    right: 0; bottom: 2px;
+    width: 0px; height: 50px;
+    border-right: 3px solid red;
+}
+
