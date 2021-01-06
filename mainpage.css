@@ -82,6 +82,7 @@ body {
     position: relative;
     text-align: center;
     align-content: center;
+    margin-right:20px;
 }
 
 #about_text{
@@ -91,7 +92,7 @@ body {
 
 #about_title{	
     text-align: center;	
-    font-size: 35px;	
+    font-size: 35px;
 }
 
 #about_outliner_1{
