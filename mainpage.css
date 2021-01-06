@@ -82,3 +82,14 @@ body {
     align-content:center;
     max-width: 300px;
 }
+
+#about_text{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#about_title{	
+    text-align: center;	
+    font-size: 35px;	
+} 	
