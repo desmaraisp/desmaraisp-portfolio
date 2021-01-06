@@ -69,11 +69,13 @@ body {
     border-radius: 15px;
 }
 
+
 #about_nested_flexbox_container{
     flex-direction: column;
     align-items: center;
     justify-content: center;
     max-width:65%;
+    margin-bottom: 20%;
 }
 
 
