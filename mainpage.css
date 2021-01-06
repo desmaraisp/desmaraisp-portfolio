@@ -97,29 +97,29 @@ body {
     margin: 40px;
 }
 
-.outliner.about.Top_H{
+.outliner.about{
     position: absolute;
+}
+
+.outliner.about.Top_H{
     left: 2px; top: 0;
     width: 60px; height: 0px;
     border-top: 3px solid red;
 }
 
 .outliner.about.Top_V{
-    position: absolute;
     left: 0; top: 0px;
     width: 0px; height: 60px;
     border-right: 3px solid red;
 }
 
 .outliner.about.Bot_H{
-    position: absolute;
     right: 0; bottom: 0;
     width: 60px; height: 0px;
     border-top: 3px solid red;
 }
 
 .outliner.about.Bot_V{
-    position: absolute;
     right: 0; bottom: 2px;
     width: 0px; height: 60px;
     border-right: 3px solid red;
