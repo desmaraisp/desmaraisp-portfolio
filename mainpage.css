@@ -37,7 +37,7 @@ body {
 #profile_pic_flexbox_container{
     justify-content: space-around;
     align-items: center; 
-    margin: 0px 20%;
+    margin: 20% 0px;
     flex-wrap: wrap;
 }
 
