@@ -72,7 +72,8 @@ body {
 #about_nested_flexbox_container{
     flex-direction: column;
     align-content: center;
-    max-width:50%;
+    justify-content: space-around;
+    max-width: 50%;
     text-align: center;
 }
 
