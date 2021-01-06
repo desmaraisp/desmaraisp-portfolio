@@ -73,17 +73,17 @@ body {
     flex-direction: column;
     align-content: center;
     max-width:50%;
+    text-align: center;
 }
 
 
 #about_text{
-    text-align: center;
     font-size: 25px;
 }
 
 
 #about_title{
-    text-align: center;
     font-size: 35px;
+    max-width: 200px;
 } 
 
