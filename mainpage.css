@@ -72,19 +72,19 @@ body {
 #about_nested_flexbox_container{
     flex-direction: column;
     align-content: center;
-    max-width:60%;
-    justify-content: space-around;
+    max-width:50%;
 }
 
-#about_section_text{
+
+#about_text{
     text-align: center;
     font-size: 25px;
 }
 
-#about_section_title{
+
+#about_title{
     text-align: center;
-    width: 200px;
+    width:200px;
     font-size: 35px;
-}
-    
+} 
 
