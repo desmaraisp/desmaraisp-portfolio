@@ -6,6 +6,10 @@ body {
     font-weight: normal;
 }
 
+section{
+    margin-bottom: 20%;
+}
+
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -17,8 +21,6 @@ body {
     border-radius: 20px;
     white-space:nowrap;
 }
-
-
 
 .flexbox_container{
     display: flex;
@@ -38,7 +40,6 @@ body {
 
 #profile_pic_flexbox_container{
     align-items: center; 
-    margin: 20% 0px;
     flex-wrap: wrap;
 }
 
@@ -74,7 +75,6 @@ body {
     align-items: center;
     justify-content: center;
     max-width:65%;
-    margin-bottom: 20%;
 }
 
 
