@@ -73,6 +73,7 @@ body {
     flex-direction: column;
     align-content: center;
     max-width:60%;
+    justify-content: space-around;
 }
 
 #about_section_text{
@@ -82,7 +83,7 @@ body {
 
 #about_section_title{
     text-align: center;
-    max-width: 200px;
+    width: 200px;
     font-size: 35px;
 }
     
