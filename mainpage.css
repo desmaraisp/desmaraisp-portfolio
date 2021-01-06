@@ -6,6 +6,10 @@ body {
     font-weight: normal;
 }
 
+section{
+    margin-bottom: 20%;
+}
+
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -17,8 +21,6 @@ body {
     border-radius: 20px;
     white-space:nowrap;
 }
-
-
 
 .flexbox_container{
     display: flex;
@@ -38,7 +40,6 @@ body {
 
 #profile_pic_flexbox_container{
     align-items: center; 
-    margin: 20% 0px;
     flex-wrap: wrap;
 }
 
@@ -74,7 +75,6 @@ body {
     align-items: center;
     justify-content: center;
     max-width:65%;
-    margin-bottom: 20%;
 }
 
 
@@ -97,29 +97,29 @@ body {
     margin: 40px;
 }
 
-#about_outliner_1{
+.outliner.about{
     position: absolute;
+}
+
+.outliner.about.Top_H{
     left: 2px; top: 0;
     width: 60px; height: 0px;
     border-top: 3px solid red;
 }
 
-#about_outliner_2{
-    position: absolute;
+.outliner.about.Top_V{
     left: 0; top: 0px;
     width: 0px; height: 60px;
     border-right: 3px solid red;
 }
 
-.outliner.about_3{
-    position: absolute;
+.outliner.about.Bot_H{
     right: 0; bottom: 0;
     width: 60px; height: 0px;
     border-top: 3px solid red;
 }
 
-.outliner.about_4{
-    position: absolute;
+.outliner.about.Bot_V{
     right: 0; bottom: 2px;
     width: 0px; height: 60px;
     border-right: 3px solid red;
