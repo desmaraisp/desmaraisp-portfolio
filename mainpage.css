@@ -77,14 +77,8 @@ body {
 }
 
 
-#about_text{
+#about_section_text, #about_section_title{
     text-align: center;
-    font-size: 25px;
+    align-content:center;
+    max-width: 300px;
 }
-
-
-#about_section_title{
-    text-align: center;
-    font-size: 35px;
-} 
-
