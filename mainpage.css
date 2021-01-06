@@ -2,17 +2,19 @@ body {
     background-color: black;
     color: white;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 12px;
     white-space:nowrap;
 }
 
@@ -20,12 +22,12 @@ body {
 
 .flexbox_container{
     display: flex;
+    justify-content: space-around;
 }
 
 #buttons_flexbox_container{
     padding-top: 32px;
     padding-bottom: 32px;
-    justify-content: space-around;
     margin: 5px 0px;
 }
 
@@ -35,7 +37,6 @@ body {
 }
 
 #profile_pic_flexbox_container{
-    justify-content: space-around;
     align-items: center; 
     margin: 20% 0px;
     flex-wrap: wrap;
@@ -47,8 +48,7 @@ body {
 
 .Title{
     width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 64px; font-weight: normal;
+    font-size: 64px;
     margin: 15px 0px 0px;
 }
 
@@ -67,4 +67,14 @@ body {
     width: 100%;
     height: auto;
     border-radius: 15px;
+}
+
+#about_nested_flexbox_container{
+    flex-direction: column;
+    align-content: center;
+    max-width:50%;
+}
+
+#about_title, #about_text{
+    text-align: center;
 }
