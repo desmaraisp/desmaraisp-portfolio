@@ -80,6 +80,8 @@ body {
 #about_section_text, #about_section_title{
     text-align: center;
     align-content:center;
+}
+#about_section_title{
     max-width: 300px;
 }
 
