@@ -71,10 +71,20 @@ body {
 
 #about_nested_flexbox_container{
     flex-direction: column;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     max-width:65%;
 }
 
+
+#about_section_text, #about_section_title{
+    text-align: center;
+    align-content: center;
+}
+
+#about_section_title{
+    max-width: 300px;
+}
 
 #about_text{
     text-align: center;
@@ -82,8 +92,7 @@ body {
 }
 
 
-#about_title{
-    text-align: center;
-    font-size: 35px;
-} 
-
+#about_title{	
+    text-align: center;	
+    font-size: 35px;	
+} 	
