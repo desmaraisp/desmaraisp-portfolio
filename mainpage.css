@@ -105,7 +105,7 @@ body {
 
 #about_outliner_2{
     position: absolute;
-    left: 0; top: 1px;
+    left: 0; top: 2px;
     width: 0px; height: 60px;
     border-right: 3px solid red;
 }
