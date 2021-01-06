@@ -75,6 +75,13 @@ body {
     max-width:50%;
 }
 
-#about_title, #about_text{
+#about_text{
     text-align: center;
+    font-size: 25px;
+}
+
+#about_title{
+    text-align: center;
+    width:150px;
+    font-size: 35px;
 }
