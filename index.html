@@ -15,19 +15,19 @@
     
     <body>
         <section id="navigation_bar">
-            <div class="flexbox_container" id="buttons_flexbox_container">
-                <div id="Home_button_div"><a class="button Home_button" href="#home">Accueil</a></div>
-                <div id="About_button_div"><a class="button About_button" href="#about">À propos</a></div>
-                <div id="Projects_button_div"><a class="button Projects_button" href="#">Projets</a></div>
+            <div class="flexbox_container">
+                <div><a class="button Home_button" href="#home">Accueil</a></div>
+                <div><a class="button About_button" href="#about">À propos</a></div>
+                <div><a class="button Projects_button" href="#">Projets</a></div>
                 <div id="empty_button_div"></div>
-                <div id="English_button_div"><a class="button English_button" href="#">EN</a></div>
+                <div><a class="button English_button" href="#">EN</a></div>
             </div>
         </section>
         
         <section id="home">
-            <div class="flexbox_container" id="profile_pic_flexbox_container">
+            <div class="flexbox_container">
                 <div id="text_div">
-                    <div id="title_outliner" class="outliner"></div>
+                    <div class="outliner title"></div>
                     <h1 class="Title">Philippe<br>Desmarais</h1>
                 </div>
                 <div id="profile_pic_div"><img src="/Media/profile_pic.jpg" id="profile_pic"></div>
@@ -35,9 +35,10 @@
         </section>
         
         <section id="about">
-            <div class="flexbox_container" id="about_flexbox_container">
-                <div class="flexbox_container" id="about_nested_flexbox_container">
-                    <div class="outliner about Top_H"></div><div class="outliner about Top_V"></div>
+            <div class="flexbox_container">
+                <div class="flexbox_container">
+                    <div class="outliner about Top_H"></div>
+                    <div class="outliner about Top_V"></div>
                     <div id="about_section_title"><h2 id="about_title">À propos</h2></div>
                     <div id="about_section_text">
                         <p id="about_text">
@@ -45,8 +46,9 @@
                             <br><br>
                             J'ai trois ans d'expérience en Python dans le cadre de l'analyse scientifique, et un an d'expérience dans un cadre plus large, par le biais de projets indépendants open-source.
                         </p>
-                        <div class="outliner about Bot_V"></div><div class="outliner about Bot_H">
                     </div>
+                    <div class="outliner about Bot_V"></div>
+                    <div class="outliner about Bot_H">
                 </div>
             </div>
         </section>
