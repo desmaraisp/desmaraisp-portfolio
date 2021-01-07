@@ -58,7 +58,7 @@ section{
     border-top: 3px solid red;
 }
 
-#profile_pic_div{
+img < div{
     min-width: 0;
     min-height: 0;
 }
