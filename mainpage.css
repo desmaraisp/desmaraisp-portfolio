@@ -137,10 +137,13 @@ img{
 .skill{
     max-width: 150px;
     margin:25px;
+    position: relative;
 }
 
 .skill>p{
     font-size:20px;
+    position: absolute;
+    bottom: 10px;
 }
 
 
