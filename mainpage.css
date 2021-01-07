@@ -70,7 +70,7 @@ section{
 }
 
 
-.flexbox_container.column{
+.flexbox_container.centered_column{
     flex-direction: column;
     align-items: center;
     justify-content: center;
