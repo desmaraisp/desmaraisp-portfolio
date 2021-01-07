@@ -137,7 +137,7 @@ img{
 .skill{
     max-width: 150px;
     margin:25px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .skill>p{
