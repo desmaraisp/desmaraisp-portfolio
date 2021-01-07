@@ -140,7 +140,7 @@ img{
     justify-content: space-between;
 }
 
-.skill>p{
+.skill>div>p{
     font-size:20px;
     margin: 0px;
 }
