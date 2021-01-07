@@ -123,3 +123,7 @@ img{
     width: 0px; height: 60px;
     border-right: 3px solid red;
 }
+
+.skills_box{
+    max-width:65%;
+}
