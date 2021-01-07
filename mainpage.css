@@ -75,11 +75,11 @@ section{
     align-items: center;
     justify-content: center;
     max-width:65%;
+    position: relative;
 }
 
 
 #about_section_text, #about_section_title{
-    position: relative;
     text-align: center;
     align-content: center;
 }
