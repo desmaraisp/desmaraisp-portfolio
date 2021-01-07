@@ -35,7 +35,7 @@ section{
 
 #empty_button_div{
     margin: 0;
-    filling: 0;
+    padding: 0;
 }
 
 #profile_pic_flexbox_container{
