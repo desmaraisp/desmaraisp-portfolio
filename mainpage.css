@@ -126,4 +126,5 @@ img{
 
 .skills_box{
     max-width:65%;
+    justify-content: space-around;
 }
