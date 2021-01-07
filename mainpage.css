@@ -132,11 +132,11 @@ img{
     border: 3px solid grey;
     max-width:80%;
     justify-content: space-around;
+    padding: 25px;
 }
 
 .skill{
     max-width: 150px;
-    margin:25px;
     flex: 1 1 0;
 }
 
