@@ -141,7 +141,7 @@ img{
 }
 
 .skill>div{
-    max-height:150px;
+    max-width:150px;
 }
 
 .skill>div>p{
