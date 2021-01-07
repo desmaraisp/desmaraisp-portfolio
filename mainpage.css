@@ -137,7 +137,6 @@ img{
 .skill{
     max-width: 150px;
     margin:25px;
-    justify-content: space-between;
 }
 
 .skill>div>p{
