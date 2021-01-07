@@ -58,25 +58,28 @@ section{
     border-top: 3px solid red;
 }
 
-#profile_pic_div{
+img < div{
     min-width: 0;
     min-height: 0;
 }
 
-#profile_pic{
+img{
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
 
 
-#about .flexbox_container .flexbox_container{
+.flexbox_container.centered_column{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width:65%;
     position: relative;
+}
+
+#about .centered_column{
     padding: 40px;
+    max-width:65%;
 }
 
 
@@ -123,3 +126,19 @@ section{
     width: 0px; height: 60px;
     border-right: 3px solid red;
 }
+
+.skills_box{
+    max-width:65%;
+    justify-content: space-around;
+}
+
+.skill{
+    max-width: 100px;
+    margin:25px;
+}
+
+.skill>p{
+    font-size:20px;
+}
+
+
