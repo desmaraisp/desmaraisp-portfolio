@@ -133,7 +133,11 @@ img{
 }
 
 .skill{
-    margin:20px;
+    margin:25px;
+}
+
+.skill>p{
+    font-size:20px;
 }
 
 
