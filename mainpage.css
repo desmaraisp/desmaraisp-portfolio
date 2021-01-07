@@ -137,6 +137,7 @@ img{
 .skill{
     max-width: 150px;
     margin:25px;
+    flex: 1 1 0;
 }
 
 .skill>div>p{
