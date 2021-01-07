@@ -130,7 +130,7 @@ img{
 .skills_box{
     border-radius: 15px;
     border: 3px solid grey;
-    max-width:80%;
+    min-width:100%;
     justify-content: space-around;
     padding: 25px;
 }
@@ -145,4 +145,7 @@ img{
     margin: 0px;
 }
 
+#skills>.centered_column{
+    max-width: 80%;
+}
 
