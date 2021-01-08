@@ -149,8 +149,8 @@ img{
     margin: 0px;
 }
 
-#skills>.centered_column{
-    max-width: 80%;
+#skills>.div{
+    width: 80%;
     margin: 0px auto;
 }
 
