@@ -155,8 +155,8 @@ img{
 }
 
 .skill{
-    max-width: 15%; min-width: 70px;
-    flex: 1 1 0;
+    max-width: 15%;
+    flex: 1 1 20px;
 }
 
 .skill>div{
