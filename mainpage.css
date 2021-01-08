@@ -142,10 +142,10 @@ img{
     width: 100%;
 }
 
-#skills > .section_title < div < div{
-    display: flex;
+.section_title_container{
     justify-content: center;
     flex-wrap: flex;
+    max-width:90%;
 }
 
 .skills_box{
