@@ -136,6 +136,10 @@ img{
     padding: 25px 0;
 }
 
+#skills .outliner{
+    width: 100%;
+}
+
 .skills_box{
     min-width:100%;
     justify-content: space-around;
