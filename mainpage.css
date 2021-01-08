@@ -137,7 +137,9 @@ img{
 }
 
 #skills .outliner{
-    width: 100%;
+    margin-top: 20px;
+    border-top: 3px solid red;
+    width: 95%;
 }
 
 .skills_box{
