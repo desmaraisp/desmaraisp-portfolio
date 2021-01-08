@@ -97,6 +97,7 @@ img{
 .section_title{	
     text-align: center;	
     font-size: 35px;
+    margin: 0;
 }
 
 .outliner.about{
