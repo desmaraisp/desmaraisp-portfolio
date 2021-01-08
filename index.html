@@ -16,17 +16,17 @@
     <body>
         <section id="navigation_bar">
             <div class="flexbox_container">
-                <div><a class="button Home_button" href="#home">Accueil</a></div>
-                <div><a class="button About_button" href="#about">À propos</a></div>
-                <div><a class="button Projects_button" href="#">Projets</a></div>
+                <div><a class="button" href="#home">Accueil</a></div>
+                <div><a class="button" href="#about">À propos</a></div>
+                <div><a class="button" href="#">Projets</a></div>
                 <div id="empty_button_div"></div>
-                <div><a class="button English_button" href="#">EN</a></div>
+                <div><a class="button" href="#">EN</a></div>
             </div>
         </section>
         
         <section id="home">
             <div class="flexbox_container">
-                <div id="text_div">
+                <div>
                     <div class="outliner title"></div>
                     <h1 class="Title">Philippe<br>Desmarais</h1>
                 </div>
@@ -39,9 +39,9 @@
                 <div class="flexbox_container centered_column">
                     <div class="outliner about Top_H"></div>
                     <div class="outliner about Top_V"></div>
-                    <div id="about_section_title"><h2 id="about_title">À propos</h2></div>
-                    <div id="about_section_text">
-                        <p id="about_text">
+                    <div><h2 class="section_title">À propos</h2></div>
+                    <div>
+                        <p class="text">
                             Bonjour!<br><br>Je m'apelle Philippe et je suis diplômé du bac en physique de l'université de Montréal, avec de bonnes bases en programmation. Ce parcours académique particulier me donne des compétences axées sur la résolution de problèmes et l'autonomie d'aprentissage.
                             <br><br>
                             J'ai trois ans d'expérience en Python dans le cadre de l'analyse scientifique, et un an d'expérience dans un cadre plus large, par le biais de projets indépendants open-source.
@@ -55,7 +55,7 @@
         
         <section id="skills">
             <div class="flexbox_container centered_column skills_and_techs">
-                <div><u>Langages et technologies</u></div>
+                <div><h3 class="section_title">Langages et technologies</h3><div class="outliner"></div></div>
                 <div class="flexbox_container skills_box">
                     <div class="flexbox_container centered_column skill">
                         <div><img src="/Media/c-logo.png"></img></div>
