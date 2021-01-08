@@ -127,12 +127,18 @@ img{
     border-right: 3px solid red;
 }
 
-.skills_box{
+.skills_and_techs{
     border-radius: 15px;
     border: 3px solid grey;
+    width: 80%; gap: 25px;
+    margin: 0px auto;
+    padding: 25px 0;
+}
+
+.skills_box{
     min-width:100%;
     justify-content: space-around;
-    padding: 25px 0px;
+    flex-wrap: wrap;
 }
 
 .skill{
@@ -148,9 +154,3 @@ img{
     font-size:20px;
     margin: 0px;
 }
-
-#skills>.centered_column{
-    max-width: 80%;
-    margin: 0px auto;
-}
-
