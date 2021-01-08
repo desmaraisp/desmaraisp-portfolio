@@ -105,25 +105,25 @@ img{
     position: absolute;
 }
 
-.outliner.Top_H{
+.Top_H{
     left: 2px; top: 0;
     width: 60px; height: 0px;
     border-top: 3px solid red;
 }
 
-.outliner.Top_V{
+.Top_V{
     left: 0; top: 0px;
     width: 0px; height: 60px;
     border-right: 3px solid red;
 }
 
-.outliner.Bot_H{
+.Bot_H{
     right: 0; bottom: 0;
     width: 60px; height: 0px;
     border-top: 3px solid red;
 }
 
-.outliner.Bot_V{
+.Bot_V{
     right: 0; bottom: 2px;
     width: 0px; height: 60px;
     border-right: 3px solid red;
