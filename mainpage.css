@@ -135,6 +135,11 @@ img{
     padding: 25px 0px;
 }
 
+.skills_and_techs{
+    width: 80%;
+    margin: 0px auto;
+}
+
 .skill{
     max-width: 15%;
     flex: 1 1 0;
@@ -149,8 +154,4 @@ img{
     margin: 0px;
 }
 
-#skills>div{
-    width: 80%;
-    margin: 0px auto;
-}
 
