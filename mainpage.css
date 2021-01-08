@@ -139,7 +139,7 @@ img{
 .title_outliner{
     margin: 7px auto 0px;
     border-top: 3px solid red;
-    width: calc(96% - 10px);
+    width: calc(100% - 20px);
 }
 
 .skills_box{
