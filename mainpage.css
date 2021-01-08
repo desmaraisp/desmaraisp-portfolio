@@ -131,8 +131,8 @@ img{
     border-radius: 15px;
     border: 3px solid grey;
     width: 80%; gap: 25px;
-    justify-content: space-around;
     margin: 0px auto;
+    padding: 25px 0;
 }
 
 .skills_box{
