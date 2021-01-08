@@ -58,7 +58,7 @@ section{
     border-top: 3px solid red;
 }
 
-img < div{
+img < div, img < a{
     min-width: 0;
     min-height: 0;
 }
