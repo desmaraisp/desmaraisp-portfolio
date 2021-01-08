@@ -142,6 +142,12 @@ img{
     width: 100%;
 }
 
+#skills > .section_title < div < div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: flex;
+}
+
 .skills_box{
     min-width:100%;
     justify-content: space-around;
