@@ -70,7 +70,7 @@ img{
 }
 
 
-.flexbox_container.centered_column{
+.centered_column{
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -79,7 +79,7 @@ img{
 
 #about .centered_column{
     padding: 40px;
-    max-width:65%;
+    width:65%;
 }
 
 
