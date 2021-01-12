@@ -43,7 +43,7 @@ section{
     flex-wrap: wrap;
 }
 
-.Title<div{
+.title_div{
     min-width: 0;
 }
 
@@ -58,7 +58,7 @@ section{
     border-top: 3px solid red;
 }
 
-img < div, img < a{
+.img_container{
     min-width: 0;
     min-height: 0;
 }
@@ -83,7 +83,7 @@ img{
 }
 
 
-.section_title<div, .text<div{
+.centered_text_div{
     text-align: center;
     align-content: center;
 }
@@ -164,7 +164,7 @@ img{
     max-width:100px;
 }
 
-.skill>div>p{
+.logo_caption{
     font-size:20px;
     margin: 0px;
 }
