@@ -152,19 +152,24 @@ img{
     min-width:100%;
     justify-content: space-around;
     flex-wrap: wrap;
+    display: flex;
 }
 
 .skill{
+    display: flex;
     max-width: 15%; min-width: 75px;
     margin: 0 10px;
     flex: 1 1 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .skill>div{
     max-width:100px;
 }
 
-.logo_caption{
+.skill_label{
     font-size:20px;
     margin: 0px;
 }
