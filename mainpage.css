@@ -179,4 +179,11 @@ img{
     justify-content: space-around;
     width: 80%;
 }
+
+.project{
+    border-radius: 15px;
+    border: 3px solid grey;
+    margin: 0;
+    padding: 25px 0;
+}
     
