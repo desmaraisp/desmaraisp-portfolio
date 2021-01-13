@@ -173,3 +173,10 @@ img{
     font-size:20px;
     margin: 0px;
 }
+
+.projects_container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+    
