@@ -216,7 +216,7 @@ img{
     padding: 6px 10px;
     border-radius: 15px;
     background-color: Azure;
-    width: 120px;
+    gap: 15px;
     box-sizing: border-box;
     display: flex; justify-content: space-between;
 }
