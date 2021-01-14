@@ -220,6 +220,10 @@ img{
     margin:0;
 }
 
+.project_button{
+    text-align:center;
+}    
+    
 .project_button .img_container{
     margin: 0 auto;
     padding: 6px 10px;
