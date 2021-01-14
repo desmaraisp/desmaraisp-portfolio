@@ -219,10 +219,11 @@ img{
     box-sizing: border-box;
     display: flex; justify-content: space-between;
     text-decoration: none !important; /* no underline */
+    color: inherit;
 }
 
 .project_repo_button .img_container:hover{
-    background-color: CadetBlue;
+    background-color: LightSeaGreen;
 }
     
 
