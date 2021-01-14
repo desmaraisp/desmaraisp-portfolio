@@ -278,14 +278,15 @@ img{
     border-left: 4px solid white;
     grid-row-start: 1;
     grid-column-start: 1;
-    margin-left:21px;
+    margin-left: 21px;
     z-index: 1;
-    padding-left: 20px;
     height: 100%;
 }
+
 .timeline_cell_title{
-    margin:0;
+    margin: 20px;
 }
+
 .timeline_cell_description{
-    margin:0px;
+    margin: 0 0 20px 20px;
 }
