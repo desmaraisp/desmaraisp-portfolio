@@ -192,7 +192,7 @@ img{
 
 .project:hover{
     transform: scale(1.1);
-    background-color: rgb(240, 248, 255);
+    background-color: #001a33;
 }
 
 .project_title{
@@ -209,8 +209,6 @@ img{
     margin:0;
 }
 
-
-
 .project_repo_button .img_container{
     margin: 0 auto;
     padding: 6px 10px;
@@ -223,7 +221,7 @@ img{
 }
 
 .project_repo_button .img_container:hover{
-    background-color: #4CAF50;
+    background-color: LightSeaGreen;
 }
     
 
