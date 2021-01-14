@@ -209,7 +209,16 @@ img{
     margin:0;
 }
 
-.project_repo_button{
+.project_repo_button .img_container{
     margin: 0 auto;
     width: 150px;
+    display: flex; justify-content: space-around;
+}
+
+.github_logo{
+    width: 40px; height:auto;
+}
+
+.project_repo_button_label{   color: white;
+    text-decoration: none; /* no underline */
 }
