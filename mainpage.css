@@ -38,8 +38,13 @@ section{
 @media screen and (max-width: 600px){
     #navigation_bar .flexbox_container{
         flex-direction: column;
-        align-items: center;
+        align-items: right;
+        gap:20px;
     }
+    .lang_button{
+       margin-left:0px;
+    }
+    
 }
 
 .lang_button{
