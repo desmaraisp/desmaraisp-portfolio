@@ -215,19 +215,20 @@ img{
     margin: 0 auto;
     padding: 6px 10px;
     border-radius: 15px;
-    border: 1px solid red;
-    width: 100px;
+    background-color: Azure;
+    width: 120px;
     box-sizing: border-box;
     display: flex; justify-content: space-between;
 }
 
 .github_logo{
-    width: 40px; height:auto;
+    margin: auto 0px;
+    width: 30px; height:30px;
 }
 
 
 .project_repo_button_label{
     margin: auto 0px;
-    color: white;
+    color: inherit;
     text-decoration: none; /* no underline */
 }
