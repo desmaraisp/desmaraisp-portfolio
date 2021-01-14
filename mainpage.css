@@ -267,7 +267,7 @@ img{
     border-radius: 12px;
     border: 4px solid white;
     position: absolute;
-    left: 11px;
+    left: 11px; top: 10px;
     z-index: 2;
     background: black;
 }
@@ -275,7 +275,13 @@ img{
 .timeline_cell_main{
     border-left: 4px solid white;
     position: absolute;
-    left:21px; top: 0px;
+    left:21px;
     z-index: 1;
     padding-left: 20px;
+}
+.timeline_cell_title{
+    margin:0;
+}
+.timeline_cell_description{
+    margin:0px;
 }
