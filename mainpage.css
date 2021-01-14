@@ -218,6 +218,7 @@ img{
     width: 105px;
     box-sizing: border-box;
     display: flex; justify-content: space-between;
+    text-decoration: none !important; /* no underline */
 }
 
 .project_repo_button .img_container:hover{
@@ -233,5 +234,4 @@ img{
 
 .project_repo_button_label{
     margin: auto 0px;
-    text-decoration: none !important; /* no underline */
 }
