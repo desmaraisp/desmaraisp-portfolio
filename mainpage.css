@@ -225,7 +225,7 @@ img{
     padding: 6px 10px;
     border-radius: 15px;
     box-sizing: border-box;
-    display: flex; justify-content:space-between;
+    display: inline-block; gap: 15px;
     text-decoration: none !important; /* no underline */
     color: inherit;
 }
