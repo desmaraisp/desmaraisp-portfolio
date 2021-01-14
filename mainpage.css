@@ -193,3 +193,20 @@ img{
 .project:hover{
     transform: scale(1.1); 
 }
+
+.project_title{
+    margin: 0;
+    font-size: 20px;
+}
+
+.project_title_div{
+    margin: 10px 0px;
+}
+
+.project_description_div{
+    margin: 10px 0px;
+}
+
+.project_description{
+    font-size: 14px;
+}
