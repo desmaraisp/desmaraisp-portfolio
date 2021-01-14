@@ -220,10 +220,6 @@ img{
     margin:0;
 }
 
-.project_button{
-    display: inline-flex;
-}
-
 .project_button .img_container{
     margin: 0 auto;
     padding: 6px 10px;
