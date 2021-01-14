@@ -226,7 +226,7 @@ img{
     border-radius: 15px;
     gap:15px;
     box-sizing: border-box;
-    display: flex; justify-content: center;
+    display: inline-flex; justify-content: center;
     text-decoration: none !important; /* no underline */
     color: inherit;
 }
