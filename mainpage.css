@@ -269,7 +269,7 @@ img{
     border: 4px solid white;
     grid-row-start: 1;
     grid-column-start: 1;
-    margin: auto 11px auto 0px;
+    margin: auto 0px auto 11px;
     z-index: 2;
     background: black;
 }
