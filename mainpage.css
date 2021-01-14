@@ -200,12 +200,13 @@ img{
     font-size: 18px;
 }
 
-.project_title_div{
-    margin-bottom: 20px;
+.project_description_div{
+    margin: 20px 0;
 }
 
 .project_description{
     font-size: 15px;
+    margin:0;
 }
 
 .project_repo_button{
