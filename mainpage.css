@@ -269,7 +269,7 @@ img{
     position: absolute;
     top:50%; left: 11px;
     z-index: 1;
-    background-color: black;
+    background: rgba(128,128,128,0.7);
 }
 
 .timeline_cell_main{
