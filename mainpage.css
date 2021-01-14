@@ -215,11 +215,15 @@ img{
     margin: 0 auto;
     padding: 6px 10px;
     border-radius: 15px;
-    background-color: Azure;
     width: 105px;
     box-sizing: border-box;
     display: flex; justify-content: space-between;
 }
+
+.project_repo_button .img_container:hover{
+    background-color: CadetBlue;
+}
+    
 
 .github_logo{
     margin: auto 0px;
