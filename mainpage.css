@@ -33,9 +33,8 @@ section{
     margin: 5px 0px;
 }
 
-#empty_button_div{
-    margin: 0;
-    padding: 0;
+.lang_button{
+    margin-left:20px;
 }
 
 #home .flexbox_container{
