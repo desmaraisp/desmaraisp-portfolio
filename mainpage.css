@@ -200,11 +200,7 @@ img{
 }
 
 .project_title_div{
-    margin: 10px 0px;
-}
-
-.project_description_div{
-    margin: 10px 0px;
+    margin-bottom: 20px;
 }
 
 .project_description{
