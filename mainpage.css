@@ -233,6 +233,5 @@ img{
 
 .project_repo_button_label{
     margin: auto 0px;
-    color: inherit;
-    text-decoration: none; /* no underline */
+    text-decoration: none !important; /* no underline */
 }
