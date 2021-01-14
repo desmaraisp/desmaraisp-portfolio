@@ -190,6 +190,6 @@ img{
     max-width: 30%; min-width: 250px;
 }
 
-.project:haver{
+.project:hover{
     transform: scale(1.1); 
 }
