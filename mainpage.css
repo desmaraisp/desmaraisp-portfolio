@@ -213,10 +213,10 @@ img{
 
 .project_repo_button .img_container{
     margin: 0 auto;
-    padding: 5px;
+    padding: 6px 10px;
     border-radius: 15px;
     border: 1px solid red;
-    width: 130px;
+    width: 100px;
     display: flex; justify-content: space-between;
 }
 
