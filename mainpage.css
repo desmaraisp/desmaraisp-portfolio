@@ -35,6 +35,10 @@ section{
     flex-wrap: wrap;
 }
 
+.lang_button{
+    margin-left:20px;
+}
+
 @media screen and (max-width: 600px){
     #navigation_bar .flexbox_container{
         flex-direction: column;
@@ -45,10 +49,6 @@ section{
        margin-left:0px;
     }
     
-}
-
-.lang_button{
-    margin-left:20px;
 }
 
 #home .flexbox_container{
