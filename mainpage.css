@@ -191,7 +191,8 @@ img{
 }
 
 .project:hover{
-    transform: scale(1.1); 
+    transform: scale(1.1);
+    background-color: rgb(240, 248, 255);
 }
 
 .project_title{
