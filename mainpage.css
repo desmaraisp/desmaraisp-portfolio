@@ -279,14 +279,14 @@ img{
     grid-row-start: 1;
     grid-column-start: 1;
     margin-left: 21px;
+    padding: 10px 20px;
     z-index: 1;
     height: 100%;
 }
 
 .timeline_cell_title{
-    margin: 20px;
+    margin: 0 0 20px 0;
 }
-
 .timeline_cell_description{
-    margin: 0 0 20px 20px;
+    margin: 0;
 }
