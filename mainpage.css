@@ -282,6 +282,7 @@ img{
     padding: 10px 20px;
     z-index: 1;
     height: 100%;
+    box-sizing: border-box;
 }
 
 .timeline_cell_title{
