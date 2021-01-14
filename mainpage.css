@@ -220,7 +220,7 @@ img{
     margin:0;
 }
 
-.project_repo_button .img_container{
+.project_button .img_container{
     margin: 0 auto;
     padding: 6px 10px;
     border-radius: 15px;
@@ -231,12 +231,12 @@ img{
     color: inherit;
 }
 
-.project_repo_button .img_container:hover{
+.project_button .img_container:hover{
     background-color: LightSeaGreen;
 }
     
 
-.github_logo{
+.project_button_logo{
     margin: auto 0px;
     width: 30px; height:30px;
 }
