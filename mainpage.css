@@ -57,6 +57,10 @@ section{
     #navigation_bar div{
         width:100%;
     }
+    
+    #navigation_bar .flexbox_container{
+        margin: 0px;
+    }
 }
 
 #home .flexbox_container{
