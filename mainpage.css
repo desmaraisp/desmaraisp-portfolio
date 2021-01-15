@@ -226,6 +226,8 @@ img{
 
 .project_buttons_div{
     margin-top:auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .project_button{
