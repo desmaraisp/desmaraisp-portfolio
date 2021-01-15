@@ -42,9 +42,11 @@ section{
         flex-direction: column;
         align-items: center;
     }
+    
     .lang_button{
        margin-left:0px;
     }
+    
     .button{
         background-color: #322A28; /* Green */
         border-bottom: 1px solid white;
@@ -52,10 +54,9 @@ section{
         padding: 16px 0;
         white-space: nowrap;
         text-align: center;
-        padding: 0;
         border-radius: 0px;
-        display:inline-block;
     }
+
     #navigation_bar div{
         width:100%;
     }
