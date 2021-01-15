@@ -14,7 +14,7 @@ section{
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 14px 23px;
+    padding: 11px 20px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -37,16 +37,33 @@ section{
     margin-left:20px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
     #navigation_bar .flexbox_container{
         flex-direction: column;
-        align-items: flex-end;
-        gap:20px;
+        align-items: center;
     }
+    
     .lang_button{
        margin-left:0px;
     }
     
+    .button{
+        background-color: #322A28; /* Green */
+        border-bottom: 1px solid white;
+        width: 100%;
+        padding: 16px 0;
+        white-space: nowrap;
+        text-align: center;
+        border-radius: 0px;
+    }
+
+    #navigation_bar div{
+        width:100%;
+    }
+    
+    #navigation_bar .flexbox_container{
+        margin: 0px;
+    }
 }
 
 #home .flexbox_container{
