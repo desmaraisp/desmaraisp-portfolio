@@ -225,7 +225,7 @@ img{
 }
 
 .project_buttons_div{
-    align-self: flex-end;
+    margin-top:auto;
 }
 
 .project_button{
