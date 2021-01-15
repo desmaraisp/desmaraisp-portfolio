@@ -49,10 +49,11 @@ section{
         background-color: black; /* Green */
         border-bottom: 1px solid grey;
         width: 100%; height: 50px;
-        white-space:nowrap;
+        white-space: nowrap;
         text-align: center;
         padding: 0;
         border-radius: 0px;
+        vertical-align: baseline;
     }
     #navigation_bar div{
         width:100%;
