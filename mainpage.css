@@ -201,6 +201,8 @@ img{
     padding: 25px;
     max-width: 27%; min-width: 200px;
     box-sizing: border-box;
+    display: flex; flex-direction: column;
+    justify-content: flex-start;
 }
 
 .project:hover{
@@ -220,6 +222,10 @@ img{
 .project_description{
     font-size: 15px;
     margin:0;
+}
+
+.project_buttons{
+    align-self: flex-end;
 }
 
 .project_button{
