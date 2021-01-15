@@ -227,7 +227,7 @@ img{
 }    
     
 .project_button .img_container{
-    margin: 0 auto;
+    margin: auto auto 0 auto;
     padding: 6px 10px;
     border-radius: 15px;
     gap:15px;
