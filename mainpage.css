@@ -46,8 +46,8 @@ section{
        margin-left:0px;
     }
     .button{
-        background-color: dimgrey; /* Green */
-        border: 1px solid grey none 1px solid grey;
+        background-color: black; /* Green */
+        border-bottom: 1px solid grey;
         width: 100%; height: 50px;
         white-space:nowrap;
         text-align: center;
