@@ -66,6 +66,18 @@ section{
     }
 }
 
+.contact_bar{
+    display:flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+    gap: 25px;
+}
+
+.contact_img{
+    width: 30px; height: 30px;
+    border-radius: 0px;
+}
+
 #home .flexbox_container{
     align-items: center; 
     flex-wrap: wrap;
