@@ -75,6 +75,7 @@ section{
 
 .contact_img{
     width: 30px; height: 30px;
+    border-radius: 0px;
 }
 
 #home .flexbox_container{
