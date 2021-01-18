@@ -16,7 +16,7 @@ section{
     padding: 11px 20px;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     border-radius: 20px;
     white-space:nowrap;
     display:inline-block;
@@ -41,7 +41,7 @@ section{
     margin-left:20px;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 680px){
     #navigation_bar .flexbox_container{
         flex-direction: column;
         align-items: center;
@@ -52,13 +52,17 @@ section{
     }
     
     .button{
-        background-color: #322A28; /* Green */
-        border-bottom: 1px solid white;
+        background-color: black;
         width: 100%;
         padding: 16px 0;
         white-space: nowrap;
         text-align: center;
         border-radius: 0px;
+    }
+    
+    .button:hover{
+        background-color: black;
+        transform: scale(1.1);
     }
 
     #navigation_bar div{
