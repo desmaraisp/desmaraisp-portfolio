@@ -107,6 +107,10 @@ section{
     border-top: 3px solid red;
 }
 
+#home .img_container{
+    max-width: 40%;
+}
+
 .img_container{
     min-width: 0;
     min-height: 0;
