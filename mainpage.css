@@ -112,6 +112,8 @@ section{
 
 .profile_pic_container{
     max-width: 520px;
+    min-width: 450px;
+    flex-basis: 0;
 }
 
 .img_container{
