@@ -107,8 +107,10 @@ section{
     border-top: 3px solid red;
 }
 
-#home .img_container{
-    max-width: 40%;
+.profile_pic_container{
+    max-width: 520px;
+    margin: 0 20px;
+    min-width: 300px;
 }
 
 .img_container{
