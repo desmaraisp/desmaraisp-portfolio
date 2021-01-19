@@ -89,7 +89,7 @@ section{
 
 #home .flexbox_container{
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
