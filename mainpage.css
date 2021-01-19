@@ -88,7 +88,6 @@ section{
 }
 
 #home .flexbox_container{
-    align-items: center; 
     flex-wrap: wrap;
 }
 
@@ -109,8 +108,7 @@ section{
 
 .profile_pic_container{
     max-width: 520px;
-    margin: 0 40px;
-    min-width: 300px;
+    min-width: 400px;
 }
 
 .img_container{
