@@ -88,6 +88,7 @@ section{
 }
 
 #home .flexbox_container{
+    align-items: center;
     flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
@@ -111,7 +112,6 @@ section{
 
 .profile_pic_container{
     max-width: 520px;
-    min-width: 450px;
 }
 
 .img_container{
