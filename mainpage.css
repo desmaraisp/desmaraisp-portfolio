@@ -89,10 +89,10 @@ section{
 
 #home .flexbox_container{
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
-    gap: 50px;
 }
 
 .title_div{
