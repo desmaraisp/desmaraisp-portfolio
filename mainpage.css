@@ -88,8 +88,11 @@ section{
 }
 
 #home .flexbox_container{
-    align-items: center; 
+    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .title_div{
@@ -107,8 +110,8 @@ section{
     border-top: 3px solid red;
 }
 
-#home .img_container{
-    max-width: 40%;
+.profile_pic_container{
+    max-width: 520px;
 }
 
 .img_container{
