@@ -239,6 +239,10 @@ img{
     flex-wrap: wrap;
 }
 
+.text_link{
+    color:DarkTurquoise;
+}
+
 .project{
     transition: all .2s ease-in-out; 
     border-radius: 15px;
