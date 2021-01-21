@@ -79,7 +79,9 @@ section{
     display:flex;
     justify-content: flex-start;
     margin: 10px 0;
-    gap: 25px;
+}
+.contact{
+    margin-right: 25px;
 }
 
 .contact_img{
@@ -188,7 +190,7 @@ img{
 .skills_and_techs{
     border-radius: 15px;
     border: 3px solid grey;
-    width: 80%; gap: 20px;
+    width: 80%;
     margin: 0px auto;
     padding: 25px 0;
 }
@@ -203,6 +205,7 @@ img{
     justify-content: center;
     flex-wrap: wrap;
     max-width:90%;
+    margin-bottom: 20px;
 }
 
 .skills_box{
@@ -288,7 +291,6 @@ img{
     margin: 0 auto;
     padding: 6px 10px;
     border-radius: 15px;
-    gap:15px;
     box-sizing: border-box;
     display: inline-flex; justify-content: center;
     text-decoration: none !important; /* no underline */
@@ -307,7 +309,7 @@ img{
 
 
 .project_button_label{
-    margin: auto 0px;
+    margin: auto 0px auto 15px;
 }
 
 
