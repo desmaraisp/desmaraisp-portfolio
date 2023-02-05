@@ -1,0 +1,18 @@
+{
+	"HomePage":{
+		"TitleText": "Hi,<br/>I'm <nameComponent>Philippe</nameComponent>",
+		"TinkererText": "<redStyle>Tinkerer</redStyle> at heart",
+		"SubtitleText": "Sysadmin and/or fullstack developper"
+	},
+	"Footer":{
+		"GithubLinkText": "Source Code",
+		"PoweredByText": "Powered by Next.js"
+	},
+	"PageTitle":"Philippe",
+	"PageDescription": "Hi! I'm Philippe and this is my JAMStack-style Next.js developper portolio.",
+	"PageNames":{
+		"About": "About me",
+		"Projects": "Projects",
+		"Home": "Home"
+	}
+}
