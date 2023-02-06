@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import TypewriterCore, { TypeWriterOptions } from "typewriter-effect/dist/core";
+import styles from '@/styles/typewriter.module.css'
 
 type OnInitType = (typeWriter: TypewriterCore) => void;
 
@@ -25,10 +26,7 @@ export default function TypeWriter({ options, onInit, isEnabled }: { options: Ty
 	return (
 		<span
 			ref={typeWriterRef}
-			style={{
-				fontSize: 'inherit'
-			}}
-			className='Typewriter'
+			className={styles.Typewriter}
 			data-testid='typewriter-wrapper'
 		/>
 	)

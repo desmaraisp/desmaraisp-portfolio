@@ -17,7 +17,7 @@ export function NavigationChevron({ targetURL, direction }: { targetURL: string,
 	return (
 		<Container className={`${classes.chevronRootContainer} ${selectedSideClassName}`}>
 			<Link href={targetURL}>
-				<FontAwesomeIcon icon={selectedIcon} width="0" />
+				<FontAwesomeIcon icon={selectedIcon} width={30} />
 			</Link>
 		</Container>
 	)
