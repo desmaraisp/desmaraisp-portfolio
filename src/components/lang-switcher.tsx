@@ -32,11 +32,11 @@ export default function LangSwitcher() {
 				<Menu.Dropdown>
 					{locales!.map((locale, i) => {
 						return (
-							<Menu.Item key={i}>
-								<Link href={asPath} locale={locale}>
+							<Link href={asPath} locale={locale} key={i} passHref>
+								<Menu.Item component='a' >
 									{capitalize(languageNames.of(locale!) ?? locale!)}
-								</Link>
-							</Menu.Item>
+								</Menu.Item>
+							</Link>
 						)
 					})}
 				</Menu.Dropdown>

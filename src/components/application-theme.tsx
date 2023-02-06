@@ -16,6 +16,19 @@ export default function ApplicationTheme({ children }: { children: React.ReactNo
 			xl: 1500
 		},
 		components: {
+			Button: {
+				styles: {
+					root: {
+						'&:is(a)': {
+							textDecoration: "none",
+							display: "inline-block"
+						}
+
+					},
+				}
+			},
+
+
 			Title: {
 				styles: (theme, params: ButtonStylesParams) => ({
 					root: {
@@ -59,12 +72,6 @@ export default function ApplicationTheme({ children }: { children: React.ReactNo
 		globalStyles: (theme): CSSObject => ({
 			a: {
 				color: "inherit",
-			},
-
-			button: {
-				a: {
-					textDecoration: "none",
-				}
 			},
 
 			img: {

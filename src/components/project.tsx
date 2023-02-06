@@ -30,7 +30,7 @@ export function Project({ projectData }: { projectData: ProjectData }) {
 			{projectData.description}
 		</ReactMarkdown>
 
-		<Flex justify='space-evenly' style={{marginTop:"auto"}} wrap='wrap' align='center'>
+		<Flex justify='space-evenly' style={{ marginTop: "auto" }} wrap='wrap' align='center'>
 			{
 				projectData.links.map((element, index) => <ProjectLinkButton link={element} key={index} />)
 			}
@@ -40,14 +40,29 @@ export function Project({ projectData }: { projectData: ProjectData }) {
 
 
 function ProjectLinkButton({ link }: { link: ProjectLink }) {
-	const { classes } = useProjectStyles()
 
 	return (
-		<Button style={{height: "2.5rem"}} variant='gradient' gradient={{ from: 'teal', to: 'blue', deg: 60 }}>
-			<Link href={link.link} className={classes.projectLink} target='_blank'>
+		<Link href={link.link} target='_blank' passHref>
+			<Button
+				component='a' variant='gradient'
+				gradient={{ from: 'teal', to: 'blue', deg: 60 }}
+				styles={{
+					root:{
+						height: "2.5rem"
+					},
+					label: {
+						textAlign: "center",
+						padding: "0",
+						display: "flex",
+						alignItems: "center",
+						gap: "7px",
+					},
+				}}
+			>
 				<Image width={30} height={30} src={link.image} alt={link.image} />
 				<Text>{link.description}</Text>
-			</Link>
-		</Button>
+
+			</Button>
+		</Link>
 	)
 }

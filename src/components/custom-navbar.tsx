@@ -37,22 +37,24 @@ export default function CustomNavbar() {
 
 						<Divider variant='solid' />
 						<Space h="md" />
-
-						<Button className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
-							<Link href="/">
+						
+						<Link href="/" passHref>
+							<Button component='a' className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
 								{t("PageNames.Home")}
-							</Link>
-						</Button>
-						<Button className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}>
-							<Link href="/about">
+							</Button>
+						</Link>
+						
+						<Link href="/about" passHref>
+							<Button component='a' className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}>
 								{t("PageNames.About")}
-							</Link>
-						</Button>
-						<Button className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
-							<Link href="/projects">
+							</Button>
+						</Link>
+
+						<Link href="/projects" passHref>
+							<Button component='a' className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
 								{t("PageNames.Projects")}
-							</Link>
-						</Button>
+							</Button>
+						</Link>
 
 						<Space h="md" />
 

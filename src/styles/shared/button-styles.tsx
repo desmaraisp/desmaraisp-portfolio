@@ -8,5 +8,6 @@ export const useButtonStyles = createStyles((theme) => ({
 		},
 
 		height: "calc(15px + 2rem)",
+		width:"100%"
 	},
 }))

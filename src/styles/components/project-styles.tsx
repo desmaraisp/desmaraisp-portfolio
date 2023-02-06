@@ -21,12 +21,4 @@ export const useProjectStyles = createStyles({
 			margin: 0
 		}
 	},
-
-	projectLink: {
-		textAlign: "center",
-		padding: "0",
-		display: "flex",
-		alignItems: "center",
-		gap: "7px",
-	}
 });
