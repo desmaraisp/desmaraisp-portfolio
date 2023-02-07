@@ -1,9 +1,11 @@
 const nextTranslate = require('next-translate')
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+	enabled: process.env.ANALYZE === 'true',
+});
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-	reactStrictMode: true,
-}
-
-
-module.exports = nextTranslate(nextConfig)
+module.exports = withBundleAnalyzer(nextTranslate({
+	reactStrictMode: false,
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
+}));

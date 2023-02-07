@@ -2,7 +2,7 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import ApplicationTheme from '@/components/application-theme'
-import { AppShell, Text } from '@mantine/core'
+import { AppShell } from '@mantine/core'
 import CustomFooter from '@/components/custom-footer'
 import CustomNavbar from '@/components/custom-navbar'
 
