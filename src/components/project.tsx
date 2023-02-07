@@ -25,7 +25,7 @@ export function Project({ projectData }: { projectData: ProjectData }) {
 
 
 	return <div className={classes.project}>
-		<h5>{projectData.title}</h5>
+		<h3>{projectData.title}</h3>
 		<ReactMarkdown className={markdownClasses.markdown}>
 			{projectData.description}
 		</ReactMarkdown>

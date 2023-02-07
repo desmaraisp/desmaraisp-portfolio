@@ -17,7 +17,7 @@ export const useProjectStyles = createStyles({
 			backgroundColor: "#001a33",
 		},
 
-		["& h5"]: {
+		["& h3"]: {
 			margin: 0
 		}
 	},

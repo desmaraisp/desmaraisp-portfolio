@@ -21,6 +21,7 @@ export default function CustomNavbar() {
 
 			<Button
 				variant='outline'
+				aria-label={t("Navigation.OpenMainMenuButtonLabel")}
 				color='gray'
 				onClick={() => setOpened(true)}
 				className={classes.BurgerButton}

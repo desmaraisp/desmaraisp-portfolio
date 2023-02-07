@@ -8,6 +8,10 @@
 		"GithubLinkText": "Source Code",
 		"PoweredByText": "Powered by Next.js"
 	},
+	"Navigation": {
+		"NavigationChevronLabel": "Navigate to next page",
+		"OpenMainMenuButtonLabel": "Open main menu"
+	},
 	"PageTitle":"Philippe",
 	"PageDescription": "Hi! I'm Philippe and this is my JAMStack-style Next.js developper portolio.",
 	"PageNames":{
