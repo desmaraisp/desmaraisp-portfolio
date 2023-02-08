@@ -4,6 +4,9 @@
 		"TinkererText": "<redStyle>Tinkerer</redStyle> at heart",
 		"SubtitleText": "Sysadmin and/or fullstack developper"
 	},
+	"AboutMePage":{
+		"TimelineTitle": "Employment history"
+	},
 	"Footer":{
 		"GithubLinkText": "Source Code",
 		"PoweredByText": "Powered by Next.js"

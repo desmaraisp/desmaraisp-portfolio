@@ -2,7 +2,8 @@ import { ChevronDirection, NavigationChevron } from "@/components/navigation-che
 import { useRouter } from "next/router"
 import React from "react"
 import useKey from "@/utilities/use-key"
-import { Project, ProjectData } from '@/components/project'
+import { Project } from '@/components/project'
+import { ProjectData } from "../models/project-data"
 import useTranslation from 'next-translate/useTranslation'
 import StripedText from "@/components/striped-text"
 import { GetStaticProps } from "next"

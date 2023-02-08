@@ -8,7 +8,7 @@ export const useStyles = createStyles((_theme) => ({
 		width: "calc(35px + 3vw)",
 		minWidth: "calc(35px + 3vw)",
 		borderRadius: '20%',
-		position: 'absolute'
+		position: 'fixed'
 	},
 
 	BurgerIcon: {

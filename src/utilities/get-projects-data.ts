@@ -1,4 +1,4 @@
-import { ProjectData } from '@/components/project';
+import { ProjectData } from "../models/project-data";
 import path from "path";
 import matter from "gray-matter";
 import fs from "fs";

@@ -5,19 +5,7 @@ import { useMarkdownStyles } from '@/styles/shared/markdown-styles'
 import ReactMarkdown from 'react-markdown'
 import { useProjectStyles } from '@/styles/components/project-styles'
 import { Button, Flex, Text } from '@mantine/core'
-
-export interface ProjectData {
-	description: string,
-	title: string,
-	links: ProjectLink[]
-}
-
-interface ProjectLink {
-	image: string,
-	link: string,
-	description: string
-}
-
+import { ProjectData, ProjectLink } from '../models/project-data'
 
 export function Project({ projectData }: { projectData: ProjectData }) {
 	const { classes: markdownClasses } = useMarkdownStyles()

@@ -8,6 +8,9 @@
 		"GithubLinkText": "Code source",
 		"PoweredByText": "Propulsé par Next.js"
 	},
+	"AboutMePage":{
+		"TimelineTitle": "Historique d'emploi"
+	},
 	"Navigation": {
 		"NavigationChevronLabel": "Aller à la prochaine page",
 		"OpenMainMenuButtonLabel": "Ouvrir le menu principal"
