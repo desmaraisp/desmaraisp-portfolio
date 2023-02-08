@@ -32,7 +32,7 @@ function ProjectLinkButton({ link }: { link: ProjectLink }) {
 	return (
 		<Link href={link.link} target='_blank' passHref>
 			<Button
-				component='a' variant='gradient'
+				component='div' variant='gradient'
 				gradient={{ from: 'teal', to: 'blue', deg: 60 }}
 				styles={{
 					root: {

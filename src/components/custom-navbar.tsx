@@ -40,19 +40,19 @@ export default function CustomNavbar() {
 						<Space h="md" />
 						
 						<Link href="/" passHref>
-							<Button component='a' className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
+							<Button component='div' className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
 								{t("PageNames.Home")}
 							</Button>
 						</Link>
 						
 						<Link href="/about" passHref>
-							<Button component='a' className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}>
+							<Button component='div' className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}>
 								{t("PageNames.About")}
 							</Button>
 						</Link>
 
 						<Link href="/projects" passHref>
-							<Button component='a' className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
+							<Button component='div' className={buttonClasses.ButtonPaddings} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
 								{t("PageNames.Projects")}
 							</Button>
 						</Link>
