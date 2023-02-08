@@ -1,7 +1,7 @@
-import { createStyles, MantineGradient } from '@mantine/core';
+import { createStyles } from '@mantine/core';
 
 
-export const useButtonStyles = createStyles((theme) => ({
+export const useButtonStyles = createStyles((_theme) => ({
 	ButtonPaddings: {
 		['& .mantine-Button-label']: {
 			overflow: "visible"

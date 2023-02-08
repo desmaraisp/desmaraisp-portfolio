@@ -6,30 +6,13 @@ import { Project, ProjectData } from '@/components/project'
 import useTranslation from 'next-translate/useTranslation'
 import StripedText from "@/components/striped-text"
 import { GetStaticProps } from "next"
-import path from "path"
-import matter from "gray-matter"
-import fs from "fs"
 import { Flex, Title } from "@mantine/core"
 import { usePageStyles } from "../styles/pages/page-styles"
+import { getProjectsData } from "../utilities/get-projects-data"
+
 
 export const getStaticProps: GetStaticProps = async (context) => {
-	const projectsDirectoryPath = path.join(process.cwd(), 'contents', context.locale!, "projects");
-	const files = fs.readdirSync(projectsDirectoryPath);
-
-	const projects = files.map(file => {
-		const matterResult = matter(fs.readFileSync(
-			path.join(projectsDirectoryPath, file),
-			'utf8'
-		))
-
-		const projectData: ProjectData = {
-			description: matterResult.content,
-			title: matterResult.data["title"],
-			links: matterResult.data["links"]
-		}
-
-		return projectData
-	});
+	const projects = getProjectsData(context.locale!)
 
 	return {
 		props: {
@@ -44,7 +27,7 @@ export default function Projects({ projects }: { projects: ProjectData[] }) {
 	const { t } = useTranslation();
 	const { classes: pageClasses } = usePageStyles()
 
-	useKey("ArrowLeft", (e) => {
+	useKey("ArrowLeft", (_) => {
 		router.push("/about")
 	})
 

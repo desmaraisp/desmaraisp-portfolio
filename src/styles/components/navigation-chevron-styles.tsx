@@ -1,6 +1,6 @@
 import { createStyles } from '@mantine/styles';
 
-export const useStyles = createStyles((theme) => ({
+export const useStyles = createStyles((_theme) => ({
 	rightSide: {
 		right: "calc(0.8vw + 3px)"
 	},

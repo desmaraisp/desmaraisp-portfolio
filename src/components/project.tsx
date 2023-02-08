@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import useMarkdownStyles from '@/styles/shared/markdown-styles'
+import { useMarkdownStyles } from '@/styles/shared/markdown-styles'
 import ReactMarkdown from 'react-markdown'
 import { useProjectStyles } from '@/styles/components/project-styles'
 import { Button, Flex, Text } from '@mantine/core'
@@ -47,7 +47,7 @@ function ProjectLinkButton({ link }: { link: ProjectLink }) {
 				component='a' variant='gradient'
 				gradient={{ from: 'teal', to: 'blue', deg: 60 }}
 				styles={{
-					root:{
+					root: {
 						height: "2.5rem"
 					},
 					label: {

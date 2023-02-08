@@ -11,7 +11,7 @@ export default function TypeWriter({ options, onInit, isEnabled }: { options: Ty
 	useEffect(() => {
 		if(!isEnabled) return
 
-		let typeWriter = new TypewriterCore(typeWriterRef.current!, options)
+		const typeWriter = new TypewriterCore(typeWriterRef.current!, options)
 		onInit && onInit(typeWriter);
 		setTypeWriter(typeWriter)
 	}, [setTypeWriter, options, onInit, isEnabled])

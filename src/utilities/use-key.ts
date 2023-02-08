@@ -1,4 +1,4 @@
-import { KeyboardEvent, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 export default function useKey(key: string, callback: (event: KeyboardEvent) => void) {
 	const callbackRef = useRef<(event: KeyboardEvent) => void>(callback);
@@ -15,9 +15,8 @@ export default function useKey(key: string, callback: (event: KeyboardEvent) => 
 				callbackRef.current(event);
 			}
 		};
-		let a: EventListenerOrEventListenerObject
 
-		document.addEventListener("keydown", handleKeyPressed as any);
-		return () => document.removeEventListener("keydown", handleKeyPressed as any);
+		document.addEventListener("keydown", handleKeyPressed);
+		return () => document.removeEventListener("keydown", handleKeyPressed);
 	}, [key]);
 }

@@ -1,6 +1,6 @@
 import { createStyles } from '@mantine/core';
 
-export const useStyles = createStyles((theme) => ({
+export const useStyles = createStyles((_theme) => ({
 	BurgerButton: {
 		height: "calc(35px + 3vw)",
 		padding: "calc(2px + 1vw)",

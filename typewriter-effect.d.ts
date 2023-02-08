@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 declare module 'typewriter-effect/dist/core' {
 	export default class TypewriterCore {
 		constructor(container: HTMLHeadingElement, options: TypeWriterOptions)
@@ -10,7 +11,7 @@ declare module 'typewriter-effect/dist/core' {
 		typeString = (string: string, node: HTMLElement = null) => this
 		pasteString = (string: string, node: HTMLElement = null) => this
 		typeOutHTMLString = (string: string, parentNode: HTMLElement = null, pasteEffect) => this
-		deleteAll = (speed: string = 'natural') => this
+		deleteAll = (speed = 'natural') => this
 		changeDeleteSpeed = (speed: number) => this
 		changeDelay = (delay: number) => this
 		changeCursor = (cursor: string) => this

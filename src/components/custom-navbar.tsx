@@ -1,6 +1,6 @@
 import useTranslation from 'next-translate/useTranslation'
 import { useState } from 'react';
-import { Drawer, Burger, ScrollArea, Stack, Divider, Space, Button, Container, MediaQuery, Navbar } from '@mantine/core';
+import { Drawer, ScrollArea, Stack, Divider, Space, Button } from '@mantine/core';
 import React from 'react';
 import LangSwitcher from './lang-switcher';
 import Link from 'next/link';

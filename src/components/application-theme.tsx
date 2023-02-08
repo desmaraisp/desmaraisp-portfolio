@@ -1,4 +1,4 @@
-import { ButtonStylesParams, CSSObject, MantineProvider, MantineThemeOverride, TypographyStylesProvider } from '@mantine/core';
+import { ButtonStylesParams, CSSObject, MantineProvider, MantineThemeOverride } from '@mantine/core';
 import { Inter } from '@next/font/google'
 
 
@@ -30,7 +30,7 @@ export default function ApplicationTheme({ children }: { children: React.ReactNo
 
 
 			Title: {
-				styles: (theme, params: ButtonStylesParams) => ({
+				styles: (theme, _params: ButtonStylesParams) => ({
 					root: {
 						'&:is(h1)': {
 							[theme.fn.smallerThan('xs')]: {
@@ -69,7 +69,7 @@ export default function ApplicationTheme({ children }: { children: React.ReactNo
 				}),
 			},
 		},
-		globalStyles: (theme): CSSObject => ({
+		globalStyles: (_theme): CSSObject => ({
 			a: {
 				color: "inherit",
 			},

@@ -2,7 +2,6 @@ import { ChevronDirection, NavigationChevron } from "@/components/navigation-che
 import { useRouter } from "next/router"
 import React from "react"
 import useKey from "@/utilities/use-key"
-import useTranslation from 'next-translate/useTranslation'
 import StripedText from '@/components/striped-text'
 import { GetStaticProps } from 'next'
 import ReactMarkdown from 'react-markdown'
@@ -10,7 +9,7 @@ import path from "path"
 import fs from "fs"
 import matter from 'gray-matter'
 import { Flex, Title } from "@mantine/core"
-import useMarkdownStyles from '@/styles/shared/markdown-styles'
+import { useMarkdownStyles } from '@/styles/shared/markdown-styles'
 import { usePageStyles } from "../styles/pages/page-styles"
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -19,21 +18,20 @@ export const getStaticProps: GetStaticProps = async (context) => {
 	return {
 		props: {
 			aboutMeContent: matterResult.content,
-			...matterResult.data
+			title: matterResult.data["title"]
 		},
 	}
 }
 
 export default function About({ aboutMeContent, title }: { aboutMeContent: string, title: string }) {
 	const router = useRouter()
-	const { t } = useTranslation();
 	const { classes: markdownClasses } = useMarkdownStyles()
 	const { classes } = usePageStyles()
 
-	useKey("ArrowRight", (e) => {
+	useKey("ArrowRight", (_) => {
 		router.push("/projects")
 	})
-	useKey("ArrowLeft", (e) => {
+	useKey("ArrowLeft", (_) => {
 		router.push("/")
 	})
 

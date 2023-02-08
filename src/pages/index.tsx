@@ -17,7 +17,7 @@ export default function Index() {
 	const { t } = useTranslation('common')
 	const { classes: pageClasses} = usePageStyles()
 
-	useKey("ArrowRight", (e) => {
+	useKey("ArrowRight", (_) => {
 		router.push("/about")
 	})
 	const TinkererNode =
