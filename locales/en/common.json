@@ -1,0 +1,46 @@
+{
+	"HomePage":{
+		"TitleText": "Hi,<br/>I'm <nameComponent>Philippe</nameComponent>",
+		"TinkererText": "<redStyle>Tinkerer</redStyle> at heart",
+		"SubtitleText": "Sysadmin and/or fullstack developper"
+	},
+	"AboutMePage":{
+		"TimelineTitle": "Employment history"
+	},
+	"Footer":{
+		"GithubLinkText": "Source Code",
+		"PoweredByText": "Powered by Next.js"
+	},
+	"ContactsList":[
+		{
+			"link":"https://github.com/desmaraisp",
+			"buttonLabel": "Github",
+			"iconName": "github",
+			"iconPrefix": "fab"
+		},
+		{
+			"link":"mailto:philippe.desmarais0trash@gmail.com",
+			"buttonLabel": "Email me",
+			"iconName": "envelope-square",
+			"iconPrefix": "fas"
+		},
+		{
+			"link":"https://www.linkedin.com/in/philippe-desmarais-9bb65a207/",
+			"buttonLabel": "Reach me on Linkedin",
+			"iconName": "linkedin",
+			"iconPrefix": "fab"
+		}
+	],
+	"Navigation": {
+		"NavigationChevronLabel": "Navigate to next page",
+		"OpenMainMenuButtonLabel": "Open main menu",
+		"CloseMainMenuButtonLabel": "Close main menu"
+	},
+	"PageTitle":"Philippe",
+	"PageDescription": "Hi! I'm Philippe and this is my JAMStack-style Next.js developper portolio.",
+	"PageNames":{
+		"About": "About me",
+		"Projects": "Projects",
+		"Home": "Home"
+	}
+}
