@@ -11,9 +11,30 @@
 	"AboutMePage":{
 		"TimelineTitle": "Historique d'emploi"
 	},
+	"ContactsList":[
+		{
+			"link":"https://github.com/desmaraisp",
+			"buttonLabel": "Github",
+			"iconName": "github",
+			"iconPrefix": "fab"
+		},
+		{
+			"link":"mailto:philippe.desmarais0trash@gmail.com",
+			"buttonLabel": "Me contacter",
+			"iconName": "envelope-square",
+			"iconPrefix": "fas"
+		},
+		{
+			"link":"https://www.linkedin.com/in/philippe-desmarais-9bb65a207/",
+			"buttonLabel": "Me contacter sur Linkedin",
+			"iconName": "linkedin",
+			"iconPrefix": "fab"
+		}
+	],
 	"Navigation": {
 		"NavigationChevronLabel": "Aller à la prochaine page",
-		"OpenMainMenuButtonLabel": "Ouvrir le menu principal"
+		"OpenMainMenuButtonLabel": "Ouvrir le menu principal",
+		"CloseMainMenuButtonLabel": "Fermer le menu principal"
 	},
 	"PageTitle":"Philippe",
 	"PageDescription": "Salut! Je suis Philippe et ceci est mon porfolio de développeur Next.js style JAMStack.",

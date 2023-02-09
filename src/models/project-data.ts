@@ -1,3 +1,4 @@
+import { IconName, IconPrefix } from "@fortawesome/fontawesome-svg-core";
 
 export interface ProjectData {
 	description: string;
@@ -5,7 +6,8 @@ export interface ProjectData {
 	links: ProjectLink[];
 }
 export interface ProjectLink {
-	image: string;
 	link: string;
 	description: string;
+	iconName: IconName
+	iconPrefix: IconPrefix
 }

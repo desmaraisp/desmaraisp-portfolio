@@ -4,7 +4,8 @@
 	"links":
 	[
 		{
-			"image": "/github.png",
+			"iconPrefix": "fab",
+			"iconName": "github",
 			"link": "https://github.com/CephalonAhmes/CephalonAhmes/",
 			"description": "Source"
 		}

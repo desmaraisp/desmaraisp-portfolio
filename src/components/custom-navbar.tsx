@@ -30,7 +30,7 @@ export default function CustomNavbar() {
 			</Button>
 
 
-			<Drawer opened={opened} size='calc(260px + 9vw)' onClose={() => setOpened(false)}>
+			<Drawer closeButtonLabel={t("Navigation.CloseMainMenuButtonLabel")} opened={opened} size='calc(260px + 9vw)' onClose={() => setOpened(false)}>
 				<ScrollArea>
 					<Stack w="75%" m="auto">
 						<LangSwitcher />

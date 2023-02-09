@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
 import { useMarkdownStyles } from '@/styles/shared/markdown-styles'
 import ReactMarkdown from 'react-markdown'
 import { useProjectStyles } from '@/styles/components/project-styles'
 import { Button, Flex, Text } from '@mantine/core'
 import { ProjectData, ProjectLink } from '../models/project-data'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export function Project({ projectData }: { projectData: ProjectData }) {
 	const { classes: markdownClasses } = useMarkdownStyles()
@@ -47,7 +47,7 @@ function ProjectLinkButton({ link }: { link: ProjectLink }) {
 					},
 				}}
 			>
-				<Image width={30} height={30} src={link.image} alt={link.image} />
+				<FontAwesomeIcon style={{height:'70%'}} icon={[link.iconPrefix, link.iconName]} />
 				<Text>{link.description}</Text>
 
 			</Button>

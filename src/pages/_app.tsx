@@ -5,6 +5,11 @@ import ApplicationTheme from '@/components/application-theme'
 import { AppShell } from '@mantine/core'
 import CustomFooter from '@/components/custom-footer'
 import CustomNavbar from '@/components/custom-navbar'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fas, fab)
 
 export default function App({ Component, pageProps }: AppProps) {
 	const { t } = useTranslation("common");

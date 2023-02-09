@@ -33,7 +33,7 @@ export default function LangSwitcher() {
 					{locales!.map((locale, i) => {
 						return (
 							<Link href={asPath} locale={locale} key={i} passHref>
-								<Menu.Item component='a' >
+								<Menu.Item component='div' >
 									{capitalize(languageNames.of(locale!) ?? locale!)}
 								</Menu.Item>
 							</Link>
