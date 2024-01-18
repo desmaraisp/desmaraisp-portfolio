@@ -2,18 +2,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Link from "next/link"
 import React from "react"
 import { Flex } from "@mantine/core"
-import { useStyles } from "../styles/components/contacts-list-styles"
 import useTranslation from "next-translate/useTranslation"
-import { ContactData } from '../models/contact-data'
-
+import { ContactData } from './contact-data'
+import { NoSsr } from '../../components/no-ssr'
 
 function ContactItem({ contact }: { contact: ContactData }) {
-	const { classes } = useStyles()
 
 	return (
-		<Link aria-label={contact.buttonLabel} href={contact.link} target="_blank">
-			<FontAwesomeIcon className={classes.contactIcon} icon={[contact.iconPrefix, contact.iconName]} />
-		</Link>
+		<NoSsr>
+			<Link style={{ width: 30, height: 30 }} aria-label={contact.buttonLabel} href={contact.link} target="_blank">
+				<FontAwesomeIcon style={{
+				height: '100%', width: '100%'
+			}} icon={{ prefix: contact.iconPrefix, iconName: contact.iconName }} />
+			</Link>
+		</NoSsr>
 	)
 }
 

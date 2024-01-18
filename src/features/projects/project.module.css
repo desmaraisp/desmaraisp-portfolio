@@ -1,0 +1,13 @@
+.projectCard {
+	transition: all .2s ease-in-out;
+	width: calc(270px + 8vw);
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.projectCard:hover {
+	transform: scale(1.1);
+	background-color: #001a33;
+}

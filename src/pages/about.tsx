@@ -1,19 +1,15 @@
-import { ChevronDirection, NavigationChevron } from "@/components/navigation-chevron"
-import { useRouter } from "next/router"
+import { ChevronDirection, NavigationChevron } from "../features/navigation/navigation-chevron"
 import React from "react"
-import useKey from "@/utilities/use-key"
-import StripedText from '@/components/striped-text'
+import { StripedText } from '../components/striped-title/striped-text'
 import { GetStaticProps } from 'next'
 import ReactMarkdown from 'react-markdown'
 import path from "path"
 import fs from "fs"
 import matter from 'gray-matter'
 import { Flex, Space, Title } from "@mantine/core"
-import { useMarkdownStyles } from '@/styles/shared/markdown-styles'
-import { usePageStyles } from "../styles/pages/page-styles"
-import { getTimelineData } from '../utilities/get-timeline-data'
-import { TimelineCellModel } from "@/models/timeline-cell"
-import { EmploymentTimeline } from "@/components/employment-timeline"
+import { getTimelineData } from '../features/employment/get-timeline-data'
+import { TimelineCellModel } from "../features/employment/timeline-cell"
+import { EmploymentTimeline } from "../features/employment/employment-timeline"
 import useTranslation from "next-translate/useTranslation"
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -30,37 +26,25 @@ export const getStaticProps: GetStaticProps = async (context) => {
 }
 
 export default function About({ aboutMeContent, title, timelineData }: { aboutMeContent: string, title: string, timelineData: TimelineCellModel[] }) {
-	const router = useRouter()
-	const { classes: markdownClasses } = useMarkdownStyles()
-	const { classes } = usePageStyles()
 	const { t } = useTranslation()
-
-	useKey("ArrowRight", (_) => {
-		router.push("/projects")
-	})
-	useKey("ArrowLeft", (_) => {
-		router.push("/")
-	})
-
 
 	return (
 		<>
 			<NavigationChevron targetURL={'/projects'} direction={ChevronDirection.Right} />
 			<NavigationChevron targetURL={'/'} direction={ChevronDirection.Left} />
 
-			<Flex direction='column' align='flex-end' className={classes.MainZone}>
+			<Flex direction='column' align='flex-end'>
+				<StripedText ta="right" order={2}>
+					{title}
+				</StripedText>
 
-				<Title align="right" order={2}>
-					<StripedText text={title} />
-				</Title>
-
-				<ReactMarkdown className={`${markdownClasses.alignRight} ${markdownClasses.markdown}`}>
+				<ReactMarkdown>
 					{aboutMeContent}
 				</ReactMarkdown>
 			</Flex>
 
-			<Flex direction='column' m='200px auto' w='80%' align='center' className={classes.MainZone}>
-				<Title align="center" order={3}>{t("AboutMePage.TimelineTitle")}</Title>
+			<Flex direction='column' m='200px auto' w='80%' align='center'>
+				<Title ta="center" order={2}>{t("AboutMePage.TimelineTitle")}</Title>
 				<Space h="20px" />
 				<EmploymentTimeline timelineCells={timelineData} />
 			</Flex>

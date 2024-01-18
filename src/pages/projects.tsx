@@ -1,15 +1,13 @@
-import { ChevronDirection, NavigationChevron } from "@/components/navigation-chevron"
 import { useRouter } from "next/router"
 import React from "react"
-import useKey from "@/utilities/use-key"
-import { Project } from '@/components/project'
-import { ProjectData } from "../models/project-data"
+import { ProjectData } from "../features/projects/project-data"
 import useTranslation from 'next-translate/useTranslation'
-import StripedText from "@/components/striped-text"
 import { GetStaticProps } from "next"
-import { Flex, Title } from "@mantine/core"
-import { usePageStyles } from "../styles/pages/page-styles"
-import { getProjectsData } from "../utilities/get-projects-data"
+import { Flex } from "@mantine/core"
+import { getProjectsData } from "../features/projects/get-projects-data"
+import { Project } from "../features/projects/project"
+import { StripedText } from "../components/striped-title/striped-text"
+import { NavigationChevron, ChevronDirection } from "../features/navigation/navigation-chevron"
 
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -24,27 +22,16 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
 
 export default function Projects({ projects }: { projects: ProjectData[] }) {
-	const router = useRouter()
 	const { t } = useTranslation();
-	const { classes: pageClasses } = usePageStyles()
-
-	useKey("ArrowLeft", (_) => {
-		router.push("/about")
-	})
-
 	return (
 		<>
 			<NavigationChevron targetURL={'/about'} direction={ChevronDirection.Left} />
 
 
-			<Flex direction='column' align='center' className={pageClasses.MainZone}>
+			<Flex direction='column' align='center'>
+				<StripedText order={2}>{t("PageNames.Projects")}</StripedText>
 
-				<Title order={2}>
-					<StripedText text={t("PageNames.Projects")} />
-				</Title>
-
-
-				<Flex justify='space-around' w="80%" rowGap='calc(10px + 3vh)' gap='calc(20px + 2wv)' style={{flexFlow: "wrap"}}>
+				<Flex justify='space-around' gap={25} style={{ flexFlow: "wrap" }}>
 					{
 						projects.map((project, index) => <Project key={index} projectData={project} />)
 					}

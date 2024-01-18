@@ -1,64 +1,31 @@
-import useKey from '@/utilities/use-key'
-import { useRouter } from 'next/router'
-import { NavigationChevron, ChevronDirection } from '@/components/navigation-chevron'
-import Typewriter from '@/components/custom-typewriter';
-import ReactDOMServer from 'react-dom/server';
-import { useState } from 'react';
 import useTranslation from 'next-translate/useTranslation'
-import Trans from 'next-translate/Trans'
-import TransText from 'next-translate/TransText'
-import { Flex, Text, Title } from '@mantine/core';
-import { usePageStyles } from '@/styles/pages/page-styles';
+import { Flex, Space, Text } from '@mantine/core';
+import { ChevronDirection, NavigationChevron } from '../features/navigation/navigation-chevron';
+import { NeonFlickeringText, NeonStaticText } from '../components/neon-animated-text/neon-animated-text';
+import { TimeBasedElementSwitcher } from '../components/time-based-element-switcher/time-based-element-switcher';
+import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
 
 export default function Index() {
-	const router = useRouter()
-	const [isTitleVisible, setIsTitleVisible] = useState(true);
 	const { t } = useTranslation('common')
-	const { classes: pageClasses} = usePageStyles()
 
-	useKey("ArrowRight", (_) => {
-		router.push("/about")
-	})
-	const TinkererNode =
-		<TransText text={t("HomePage.TinkererText")} components={{
-			redStyle: <Text component='span' style={{ color: "red" }} />
-		}} />
-
-
-	const TitleNode =
-		<Trans
-			i18nKey="common:HomePage.TitleText"
-			components={{
-				nameComponent: <Text component='span' style={{ color: "red", cursor: "pointer" }} onClick={() => setIsTitleVisible(false)} />,
-				br: <br />
-			}}
-		/>
-
-	const typeWriterNode = <Typewriter options={{ autoStart: !isTitleVisible, cursor: "" }} isEnabled={!isTitleVisible} onInit={
-		(typewriter) => {
-			typewriter
-				.typeString(ReactDOMServer.renderToStaticMarkup(TinkererNode))
-				.pauseFor(1500)
-				.deleteAll()
-				.callFunction(() => setIsTitleVisible(true))
-				.start();
-		}
-	} />
 	return (
 		<>
 			<NavigationChevron targetURL={'/about'} direction={ChevronDirection.Right} />
 
 
-			<Flex direction='column' align='flex-start' className={pageClasses.MainZone}>
-				<Title order={1} size='h1'>
-					{isTitleVisible ? TitleNode : typeWriterNode}
-				</Title>
-
-
-				<Text>{t('HomePage.SubtitleText')}</Text>
+			<Flex h={200} direction='column' align='flex-start' mt={25}>
+				<TimeBasedElementSwitcher elements={[
+					<NeonFlickeringText key={1} color='#0fa' style={{ rotate: "-3deg" }}>
+						{t("common:HomePage.TitleText")}
+					</NeonFlickeringText>,
+					<NeonFlickeringText key={2} color='#ff55eb' style={{ alignSelf: 'flex-end', marginTop: 50, rotate: "2deg" }}>
+						{t("HomePage.TinkererText")}
+					</NeonFlickeringText>
+				]} />
 			</Flex>
 
+			<NeonStaticText color='blue'>{t('HomePage.SubtitleText')}</NeonStaticText>
 		</>
 
 	)

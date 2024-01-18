@@ -1,0 +1,25 @@
+.chevronRootContainer {
+	position: fixed;
+	padding: 0px;
+	top: 50%;
+	width: calc(35px + 3vw);
+	height: calc(35px + 3vw);
+}
+
+.chevronRootContainer a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.chevronRootContainer a:hover {
+	background-color: rgba(109, 109, 109, 0.5)
+}
+
+.chevronRootContainer svg {
+	width: 50%;
+	height: 50%;
+}

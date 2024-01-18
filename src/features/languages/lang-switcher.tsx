@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 import { Button, Menu } from '@mantine/core';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useButtonStyles } from '@/styles/shared/button-styles'
 
 function capitalize(lang: string) {
 	return lang.slice(0, 1).toUpperCase() + lang.slice(1);
@@ -13,7 +12,6 @@ function capitalize(lang: string) {
 
 
 export default function LangSwitcher() {
-	const { classes } = useButtonStyles()
 	const { locale, locales, asPath } = useRouter();
 	const languageNames = useMemo(() => {
 		return new Intl.DisplayNames(locale, {
@@ -25,7 +23,7 @@ export default function LangSwitcher() {
 		<>
 			<Menu>
 				<Menu.Target>
-					<Button className={classes.ButtonPaddings} variant='gradient' gradient={{ from: 'teal', to: 'blue', deg: 60 }} rightIcon={<FontAwesomeIcon icon={faChevronDown} />} pr={12}>
+					<Button variant='gradient' gradient={{ from: 'teal', to: 'blue', deg: 60 }} rightSection={<FontAwesomeIcon icon={faChevronDown} />} pr={12}>
 						{capitalize(languageNames.of(locale!) ?? locale!)}
 					</Button>
 				</Menu.Target>
@@ -41,8 +39,6 @@ export default function LangSwitcher() {
 					})}
 				</Menu.Dropdown>
 			</Menu>
-
-
 		</>
 	);
 }

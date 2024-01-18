@@ -1,6 +1,6 @@
-import { TimelineCellModel } from "../models/timeline-cell";
+import { TimelineCellModel } from "./timeline-cell";
 import path from "path";
-import matter from "gray-matter";
+import matter from 'gray-matter';
 import fs from "fs";
 
 export function getTimelineData(locale: string) {

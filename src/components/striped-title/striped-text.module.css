@@ -1,0 +1,38 @@
+.stripedText {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	overflow: hidden;
+	font-size: 6rem
+}
+
+.stripedText:before {
+	content: attr(data-text);
+	left: 0;
+	position: absolute;
+	z-index: -1;
+	text-shadow:
+		1px 1px 0px var(--mantine-color-body),
+		1.3px 1.3px 0px var(--mantine-color-body),
+		2px 2px 0px var(--mantine-color-text),
+		3px 3px 0px var(--mantine-color-text),
+		4px 4px 0px var(--mantine-color-text),
+		5px 5px 0px var(--mantine-color-text),
+		6px 6px 0px var(--mantine-color-text),
+		7px 7px 0px var(--mantine-color-text);
+	top: 0;
+	color: transparent;
+}
+
+.stripedText:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: -200vmax;
+	left: 0;
+	right: 0;
+	bottom: -200vmax;
+	background-image: repeating-linear-gradient(0deg, transparent 0 1px, var(--mantine-color-body) 1.5px 3px);
+	transform: skewY(45deg);
+}

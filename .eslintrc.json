@@ -1,25 +1,6 @@
 {
-	"ignorePatterns": ["next.config.js"],
 	"extends": [
-		"eslint:recommended",
-		"plugin:@typescript-eslint/recommended",
 		"next/core-web-vitals",
 		"plugin:jsx-a11y/recommended"
-	],
-	"parser": "@typescript-eslint/parser",
-	"plugins": [
-		"@typescript-eslint"
-	],
-	"rules": {
-		"no-unused-vars": "off",
-		"@typescript-eslint/no-unused-vars": [
-			"warn",
-			{
-				"argsIgnorePattern": "^_",
-				"varsIgnorePattern": "^_",
-				"caughtErrorsIgnorePattern": "^_"
-			}
-		],
-		"@typescript-eslint/no-non-null-assertion": "off"
-	}
+	]
 }
