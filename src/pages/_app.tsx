@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<MantineProvider>
+			<MantineProvider defaultColorScheme='dark'>
 				<AppShell padding={'max(60px, 10vw)'} header={{ height: 30 }} navbar={{
 					width: 300,
 					breakpoint: 'sm',
