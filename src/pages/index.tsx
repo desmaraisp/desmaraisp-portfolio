@@ -3,8 +3,7 @@ import { Flex, Space, Text } from '@mantine/core';
 import { ChevronDirection, NavigationChevron } from '../features/navigation/navigation-chevron';
 import { NeonFlickeringText, NeonStaticText } from '../components/neon-animated-text/neon-animated-text';
 import { TimeBasedElementSwitcher } from '../components/time-based-element-switcher/time-based-element-switcher';
-import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
-
+import { NeonBackground } from '../components/neon-background/neon-background';
 
 export default function Index() {
 	const { t } = useTranslation('common')
@@ -12,7 +11,7 @@ export default function Index() {
 	return (
 		<>
 			<NavigationChevron targetURL={'/about'} direction={ChevronDirection.Right} />
-
+			<NeonBackground />
 
 			<Flex h={200} direction='column' align='flex-start' mt={25}>
 				<TimeBasedElementSwitcher elements={[

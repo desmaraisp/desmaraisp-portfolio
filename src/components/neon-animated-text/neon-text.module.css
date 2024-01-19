@@ -15,12 +15,6 @@
 	animation: flicker 1.5s infinite alternate;
 }
 
-.neonPulsateText {
-	animation: pulsate 2.5s infinite alternate;
-}
-
-
-
 /* Flickering animation */
 @keyframes flicker {
 

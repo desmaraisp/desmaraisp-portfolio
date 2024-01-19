@@ -1,0 +1,5 @@
+.main {
+	--app-shell-navbar-offset: 0px;
+	padding-top: max(70px, 15vh);
+	padding-bottom: max(70px, 15vh);
+}

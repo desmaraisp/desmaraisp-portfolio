@@ -1,8 +1,8 @@
 {
 	"HomePage": {
-		"TitleText": "Salut,<br/>Je suis <nameComponent>Philippe</nameComponent>",
-		"TinkererText": "<redStyle>Bricoleur</redStyle> dans l'âme",
-		"SubtitleText": "Sysadmin et/ou développeur fullstack"
+		"TitleText": "Salut! Moi c'est Philippe",
+		"TinkererText": "Bricoleur dans l'âme",
+		"SubtitleText": "Développeur fullstack avec un goût pour les devops"
 	},
 	"Footer":{
 		"GithubLinkText": "Code source",

@@ -12,6 +12,7 @@ import LangSwitcher from '../features/languages/lang-switcher'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import '@mantine/core/styles.css';
 import { ShadowBlurImage } from '../components/shadow-blur-image/shadow-blur-image'
+import classes from '../syles/global.module.css'
 
 library.add(fas, fab)
 
@@ -28,7 +29,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<MantineProvider>
-				<AppShell padding={60} header={{ height: 30 }} navbar={{
+				<AppShell padding={'max(60px, 10vw)'} header={{ height: 30 }} navbar={{
 					width: 300,
 					breakpoint: 'sm',
 					collapsed: { mobile: !opened, desktop: !opened },
@@ -43,9 +44,9 @@ export default function App({ Component, pageProps }: AppProps) {
 						</Flex>
 					</AppShell.Header>
 					<AppShell.Navbar p='md'>
-						<ShadowBlurImage style={{margin: 'auto', width: 40, height: 40}} url='/favicon.ico' />
+						<ShadowBlurImage style={{ margin: 'auto', width: 40, height: 40 }} url='/favicon.ico' />
 
-						<Space h='md'/>
+						<Space h='md' />
 						<AppShell.Section grow>
 							<Stack align='stretch'>
 								<LangSwitcher />
@@ -74,7 +75,7 @@ export default function App({ Component, pageProps }: AppProps) {
 					</AppShell.Navbar>
 
 
-					<AppShell.Main>
+					<AppShell.Main className={classes.main} pos='relative'>
 						< Component {...pageProps} />
 					</AppShell.Main>
 					<AppShell.Footer>

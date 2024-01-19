@@ -1,8 +1,8 @@
 {
 	"HomePage":{
-		"TitleText": "Hi,<br/>I'm <nameComponent>Philippe</nameComponent>",
-		"TinkererText": "<redStyle>Tinkerer</redStyle> at heart",
-		"SubtitleText": "Sysadmin and/or fullstack developper"
+		"TitleText": "Hi! I'm Philippe",
+		"TinkererText": "Tinkerer at heart",
+		"SubtitleText": "Fullstack dev with a taste for devops"
 	},
 	"AboutMePage":{
 		"TimelineTitle": "Employment history"
