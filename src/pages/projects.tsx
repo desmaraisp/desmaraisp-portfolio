@@ -31,7 +31,7 @@ export default function Projects({ projects }: { projects: ProjectData[] }) {
 			<Flex direction='column' align='center'>
 				<StripedText order={2}>{t("PageNames.Projects")}</StripedText>
 
-				<Flex justify='space-around' gap={25} style={{ flexFlow: "wrap" }}>
+				<Flex justify='space-around' gap={15} style={{ flexFlow: "wrap" }}>
 					{
 						projects.map((project, index) => <Project key={index} projectData={project} />)
 					}

@@ -24,16 +24,26 @@ export function Project({ projectData }: { projectData: ProjectData }) {
 
 
 function ProjectLinkButton({ link }: { link: ProjectLink }) {
+	const hasDescription = link.description.length > 0
+	const icon = <NoSsr>
+		<FontAwesomeIcon style={{ height: 25, width: 25 }} icon={[link.iconPrefix, link.iconName]} />
+	</NoSsr>
+	const text = <Text>{link.description}</Text>
 
-	return (
-		<Button
+	if (hasDescription) {
+		return <Button
 			component={Link} href={link.link} target='_blank' variant='gradient'
 			gradient={{ from: 'teal', to: 'blue', deg: 60 }}
-			leftSection={<NoSsr>
-				<FontAwesomeIcon style={{ height: 25, width:25 }} icon={[link.iconPrefix, link.iconName]} />
-			</NoSsr>}
+			leftSection={icon}
 		>
-			<Text>{link.description}</Text>
+			{text}
 		</Button>
-	)
+
+	}
+	return <Button
+		component={Link} href={link.link} target='_blank' variant='gradient'
+		gradient={{ from: 'teal', to: 'blue', deg: 60 }}
+	>
+		{icon}
+	</Button>
 }
